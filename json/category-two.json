@@ -1,0 +1,15 @@
+{
+  "items": [
+    {"img": "img/category-two/mini-mix.jpg", "name": "ミニMIX", "comment": "5種類のホイップクリーム詰め合わせ", "price": 470},
+    {"img": "img/category-two/mini-pie.jpg", "name": "ミニパイ", "comment": "デニッシュ生地のミニコロネにカスタードホイップ", "price": 410},
+    {"img": "img/category-two/mini-choco.jpg", "name": "ミニチョコ", "comment": "デニッシュ生地のミニコロネにチョコホイップ", "price": 420},
+    {"img": "img/category-two/mini-strawberry.jpg", "name": "ミニイチゴ", "comment": "デニッシュ生地のミニコロネにイチゴホイップ", "price": 430},
+    {"img": "img/category-two/cheese-cake.jpg", "name": "チーズケーキデニッシュ", "comment": "デニッシュ生地でチーズケーキを包み焼き、塩味がミソ!", "price": 380},
+    {"img": "img/category-two/sakusaku-chocolat.jpg", "name": "さくさくショコラ", "comment": "やわらかなデニッシュ生地にフレーク感のあるさくさくチョコ＆ホイップ", "price": 390},
+    {"img": "img/category-two/choco-danish.jpg", "name": "チョコデニッシュ", "comment": "お客様から「デカっ」とツッコミのはいる大物(笑)", "price": 390},
+    {"img": "img/category-two/ringo-chan.jpg", "name": "りんごちゃん", "comment": "ハーフカットのりんごコンポートを贅沢に使用", "price": 250},
+    {"img": "img/category-two/danish-ring.jpg", "name": "デニッシュリング", "comment": "ビターなチョコ＆クルミをふわふわのデニッシュ生地で包みました", "price": 380},
+    {"img": "img/category-two/walnut-danish.jpg", "name": "くるみデニッシュ", "comment": "デニッシュ生地にクルミフロランタンを絞り焼き上げました", "price": 280}
+  ],
+  "description": "サクサクっとした食感が美味しい、デニッシュやペストリー！"
+}

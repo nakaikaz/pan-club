@@ -1,0 +1,145 @@
+.background-cover() {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#products-list {
+
+  .portfolio-item {
+    margin: 8px 0;
+  }
+  .product-group-cover {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 200px;
+  }
+  .product-group-link {
+    display: block;
+    h3 {
+      position: absolute;
+      left: 1em;
+      bottom: 1em;
+      .fa {
+        margin-left: 0.5em;
+      }
+    }
+  }
+  .message-line {
+    padding: 2em 0;
+    margin: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  .guide-item {
+    h3 {
+      position: absolute;
+    }
+    .guide-cover {
+      //color: #fff;
+      background-color: #222;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+    }
+  }
+  .link-text {
+    color: #f5f5f5;
+  }
+}
+@media (min-width: 768px) {
+  .navbar {
+    .container {
+      //padding: 0 1em;
+    }
+  }
+  #products-list {
+    .container {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .product-group-cover {
+      height: 400px;
+    }
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .portfolio-item {
+      padding-right: 5px;
+      padding-left: 0;
+      margin: 5px 0;
+      &:first-child + .portfolio-item {
+        padding-right: 0;
+        padding-left: 5px;
+      }
+    }
+    .product-group-link {
+      h3 {
+        left: 2em;
+        bottom: 1em;
+      }
+      background-color: #000;
+      .product-group-cover {
+        transition: all 0.5s;
+      }
+      &:hover {
+        .product-group-cover {
+          opacity: 0.8;
+          filter: alpha(opacity=80);
+        }
+      }
+    }
+    .guide-item {
+      padding-left: 0;
+      padding-right: 0;
+      div {
+        height: 200px;
+        margin: 5px 0;
+        h3 {
+          left: 2em;
+          bottom: 1em;
+        }
+      }
+    }
+
+    .message-line {
+      font-size: 24px;
+      text-align: center;
+      padding: 2em 0;
+      margin: 0;
+      border-top: none;
+      border-bottom: none;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  #products-list {
+    .container {
+      width: 100%;
+      //max-width: 1800px;
+    }
+    .product-group-cover {
+      height: 450px;
+    }
+  .product-group-link {
+    display: block;
+    h3 {
+      .fa {
+        font-size: 28px;
+        line-height: 28px;
+      }
+    }
+  }
+
+  }
+}

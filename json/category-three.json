@@ -1,0 +1,20 @@
+{
+  "items": [
+    {"img": "img/category-three/orange-ribbon.jpg", "name": "オレンジリボン", "comment": "オレンジ風味のパン生地を折り込んで、食べやすいミニパンに", "price": 420},
+    {"img": "img/category-three/chocolat-ribbon.jpg", "name": "ショコラリボン", "comment": "チョコレートをたっぷりと折りこんで、食べやすいミニパンに", "price": 420},
+    {"img": "img/category-three/jam-bread.jpg", "name": "うまいジャムぱん", "comment": "定番のイチゴジャムを使用", "price": 370},
+    {"img": "img/category-three/cream-bread.jpg", "name": "うまいクリームぱん", "comment": "固めだけど、コクのあるカスタードクリームをつつんで焼き上げ", "price": 370},
+    {"img": "img/category-three/bean-jam-bread.jpg", "name": "うまい白あんぱん", "comment": "上質の白豆をこした餡とパン生地の絶妙感", "price": 370},
+    {"img": "img/category-three/grain-bean-jam-bread.jpg", "name": "つぶあんぱん", "comment": "大きめのパンに粒餡をずっしり１００ｇ", "price": 330},
+    {"img": "img/category-three/fried-bean-jam-bread.jpg", "name": "揚げあんぱん", "comment": "「らくがん」という和菓子を粉砕してまぶし、潰し餡を包んで揚げました", "price": 330},
+    {"img": "img/category-three/meolnpan.jpg", "name": "めろんぱん", "comment": "シンプルに丁寧に作り上げ", "price": 390},
+    {"img": "img/category-three/rum-raisin.jpg", "name": "ラムレザン", "comment": "ホイップにラム酒漬けレーズンを混ぜています", "price": 340},
+    {"img": "img/category-three/couronne.jpg", "name": "クーロンヌ", "comment": "コーヒー味のパンにモカクリームをサンド", "price": 390},
+    {"img": "img/category-three/maple-butter.jpg", "name": "メープルバター", "comment": "メープルシロップ＆バターをサンド", "price": 390},
+    {"img": "img/category-three/.jpg", "name": "", "comment": "", "price": 0},
+    {"img": "img/category-three/.jpg", "name": "", "comment": "", "price": 0},
+    {"img": "img/category-three/.jpg", "name": "", "comment": "", "price": 0},
+    {"img": "img/category-three/.jpg", "name": "", "comment": "", "price": 0}
+  ],
+  "description": "みんな大好き、菓子パン大集合！"
+}

@@ -1,0 +1,13 @@
+{
+  "items": [
+    {"img": "img/products-gallery/item1.jpg", "alt":"item 1", "name": "プリンセスティアラ", "price": 400},
+    {"img": "img/products-gallery/item2.jpg", "alt":"item 2", "name": "ノワールショコラ", "price": 410},
+    {"img": "img/products-gallery/item3.jpg", "alt":"item 3", "name": "まんまるうさちゃん", "price": 367},
+    {"img": "img/products-gallery/item4.jpg", "alt":"item 4", "name": "ペコスイートエッグ", "price": 864},
+    {"img": "img/products-gallery/item5.jpg", "alt":"item 5", "name": "ペコスイート", "price": 680},
+    {"img": "img/products-gallery/item6.jpg", "alt":"item 6", "name": "マカロン", "price": 150},
+    {"img": "img/products-gallery/item7.jpg", "alt":"item 7", "name": "スフレチーズケーキ", "price": 1728},
+    {"img": "img/products-gallery/item8.jpg", "alt":"item 8", "name": "レアチーズケーキ", "price": 367},
+    {"img": "img/products-gallery/item9.jpg", "alt":"item 9", "name": "プチフール", "price": 1388}
+  ]
+}
