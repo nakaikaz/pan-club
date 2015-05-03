@@ -121,16 +121,6 @@
 
 
 // toggle
-.btn-dark {
-  border-radius: 100%;
-  color: #fff;
-  background-color: @base-color;
-}
-.btn-light {
-  border-radius: 100%;
-  color: #333;
-  background-color: #fff;
-}
 .toggle {
   margin: 5px 5px 0 0;
 }
@@ -149,6 +139,10 @@
   position: fixed;
   top: 0;
   right: 0;
+  border-radius: 100%;
+  color: #fff;
+  background-color: #F15A24;
+  font-size: 18px;
   &:hover {
     color: #fff;
   }
@@ -157,6 +151,9 @@
   position: absolute;
   right: 0;
   top: 0;
+  color: #F15A24;
+  border-radius: 100%;
+  background-color: #fff;
 }
 @transition-duration: 0.8s;
 @transition-height: 100%;
@@ -171,7 +168,7 @@
   //top: @length * -1;
   //overflow-y: auto;
   overflow: hidden;
-  background: rgba(82, 52, 0, 0.96);
+  background-color: #F15A24;
   -webkit-transition: all @transition-duration ease;
   -moz-transition: all @transition-duration ease;
   -ms-transition: all @transition-duration ease;
