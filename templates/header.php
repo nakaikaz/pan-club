@@ -44,7 +44,7 @@
       </div>
     </nav>-->
 
-    <header style="background: url('img/bg.gif');">
+    <header>
       <h1><a href="<?php echo $base_url; ?>"><img src="img/pan-club.gif" alt="ぱんくらぶ"/></a></h1>
       <a id="menu-toggle" href="#" class="btn btn-dark btn-lg pull-right toggle"><i class="fa fa-bars"></i></a>
       <nav id="nav-wrapper">

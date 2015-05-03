@@ -2,6 +2,7 @@
 @font-color: #fff;
 
 footer {
+  color: #fff;
   hr {
     border-top: 1px solid #ccc;
   }
@@ -9,7 +10,7 @@ footer {
     margin: 1em 0;
   }
   a {
-    font-size: 18px;
+    font-size: 16px;
     color: @font-color;
     &:visited {
       color: @font-color;
@@ -25,20 +26,36 @@ footer {
 @media (min-width: 768px){
   footer {
 
-    .row {
-      &:first-child {
-        margin-top: 2em;
-        margin-bottom: 4em;
+    padding-top: 2em;
+
+    h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .box {
+      border-left: 1px solid #fff;
+      height: 154px;
+      p {
+        font-size: 14px;
       }
     }
 
-    a {
-      color: @font-color;
-      &:visited {
+    .fa {
+      width: 14px;
+      margin-right: 0.5em;
+    }
+
+    .links {
+      a {
+        line-height: 2.0;
         color: @font-color;
-      }
-      &:hover {
-        color: @font-color;
+        &:visited {
+          color: @font-color;
+        }
+        &:hover {
+          color: @font-color;
+        }
       }
     }
 
@@ -54,9 +71,5 @@ footer {
 }
 @media (min-width: 992px) {
   footer {
-    .links {
-      margin-top: 2em;
-      margin-bottom: 2em;
-    }
   }
 }

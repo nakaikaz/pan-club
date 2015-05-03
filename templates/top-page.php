@@ -7,12 +7,11 @@
 <!-- /header -->
 
 <!-- #products -->
-<section id="products">
+<!--<section id="products">
   <div class="container wow fadeIn animated">
     <div class="row">
       <div class="col-lg-12">
         <h2>商  品</h2>
-        <!--<hr class="colored" />-->
         <p>他にも素敵なぱんを用意しています。是非詳細をお問い合わせください。</p>
       </div>
     </div>
@@ -25,17 +24,15 @@
       <a href="<?php echo $base_url; ?>/products" class="btn btn-default btn-wide">商品一覧</a>
     </div>
   </div>
-</section>
+</section>-->
 <!-- /#products -->
 
 <!-- #news -->
-<section id="news" class="bg-gray">
+<!--<section id="news" class="bg-gray">
   <div class="container wow fadeIn animated">
     <div class="row">
       <div class="col-lg-12">
         <h2 class="text-center">お知らせ</h2>
-        <!--<hr class="colored" />-->
-        <!--<p class="text-center">ぱんくらぶからのお知らせです。</p>-->
       </div>
     </div>
     <div class="row content-row">
@@ -70,15 +67,14 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 <!-- /#news -->
 
 
-<section id="access" class="footer cover" style="background-image: url('img/bg-footer.jpg');">
-  <!-- 八戸営業所 -->
+<!--<section id="access" class="footer cover" style="background-image: url('img/bg-footer.jpg');">
   <div class="container text-center">
     <div class="row">
-      <!-- 八戸営業所 -->
+
       <div class="col-md-4 access-details wow fadeIn animated" data-wow-delay=".2s">
         <h3>八戸営業所</h3>
         <div class="row">
@@ -97,7 +93,7 @@
           <div class="col-lg-12 access-value visible-sm visible-md visible-lg"><i class="fa fa-envelope"></i>info@pan-club.jp</div>
         </div>
       </div>
-      <!-- 盛岡営業所 -->
+
       <div class="col-md-4 access-details wow fadeIn animated" data-wow-delay=".4s">
         <h3>盛岡営業所</h3>
         <div class="row">
@@ -112,7 +108,7 @@
           <div class="col-lg-12 access-value">〒&emsp;０２０−０１２７<br />岩手県盛岡市前九年２丁目１３−２３</div>
         </div>
       </div>
-      <!-- 秋田営業所 -->
+
       <div class="col-md-4 access-details wow fadeIn animated" data-wow-delay=".6s">
         <h3>秋田営業所</h3>
         <div class="row">
@@ -129,4 +125,4 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->

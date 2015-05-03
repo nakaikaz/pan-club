@@ -4,6 +4,7 @@
 
 @border-top-transition-property: border-top .6s ease;
 @border-bottom-transition-property: border-bottom .6s ease;
+@background-transition-property: background-color .6s ease;
 
 @media (min-width: 768px) {
   header {
@@ -15,15 +16,16 @@
     height:100px;
     //color: #222;
     //background-color: rgb(82, 52, 0);
-    background-color: #fff;
-    border-top: 4px solid @base-color;
+    //background-color: #fff;
+    //border-top: 4px solid @base-color;
     border-bottom: none;
-    -webkit-transition: @border-top-transition-property, @border-bottom-transition-property;
-    -moz-transition: @border-top-transition-property, @border-bottom-transition-property;
-    transition: @border-top-transition-property, @border-bottom-transition-property;
+    -webkit-transition: @border-top-transition-property, @border-bottom-transition-property, @background-transition-property;
+    -moz-transition: @border-top-transition-property, @border-bottom-transition-property, @background-transition-property;
+    transition: @border-top-transition-property, @border-bottom-transition-property, @background-transition-property;
 
     &.header-collapsed {
-      border-top: none;
+      //border-top: none;
+      background-color: #fff;
       border-bottom: 4px solid @base-color;
     }
 
