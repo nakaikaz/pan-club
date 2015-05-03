@@ -732,13 +732,19 @@ footer a:visited {
 footer a:hover {
   color: #ffffff;
 }
-footer .copyright {
-  margin: 1em 0;
+footer .full-width {
+  background-color: #fff;
+  overflow-y: hidden;
+}
+footer .full-width .copyright {
+  color: #fff;
+  margin: 1.4em auto;
+  padding: 8px 0;
+  width: 200px;
+  background-color: #F15A24;
+  border-radius: 24px;
 }
 @media (min-width: 768px) {
-  footer {
-    padding-top: 2em;
-  }
   footer h3 {
     font-size: 18px;
     margin: 10px 0;
@@ -746,6 +752,10 @@ footer .copyright {
   footer .box {
     border-left: 1px solid #fff;
     height: 154px;
+    margin: 2em 0;
+  }
+  footer .box:last-child {
+    border-right: 1px solid #fff;
   }
   footer .box p {
     font-size: 14px;
@@ -1531,13 +1541,19 @@ footer a:visited {
 footer a:hover {
   color: #ffffff;
 }
-footer .copyright {
-  margin: 1em 0;
+footer .full-width {
+  background-color: #fff;
+  overflow-y: hidden;
+}
+footer .full-width .copyright {
+  color: #fff;
+  margin: 1.4em auto;
+  padding: 8px 0;
+  width: 200px;
+  background-color: #F15A24;
+  border-radius: 24px;
 }
 @media (min-width: 768px) {
-  footer {
-    padding-top: 2em;
-  }
   footer h3 {
     font-size: 18px;
     margin: 10px 0;
@@ -1545,6 +1561,10 @@ footer .copyright {
   footer .box {
     border-left: 1px solid #fff;
     height: 154px;
+    margin: 2em 0;
+  }
+  footer .box:last-child {
+    border-right: 1px solid #fff;
   }
   footer .box p {
     font-size: 14px;

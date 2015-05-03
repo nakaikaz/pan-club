@@ -19,14 +19,23 @@ footer {
       color: @font-color;
     }
   }
-  .copyright {
-    margin: 1em 0;
+  .full-width {
+    background-color: #fff;
+    //border-top: 4px solid #F15A24;
+    overflow-y: hidden;
+    .copyright {
+      color: #fff;
+      margin: 1.4em auto;
+      padding: 8px 0;
+      width: 200px;
+      background-color: #F15A24;
+      border-radius: 24px;
+    }
   }
+
 }
 @media (min-width: 768px){
   footer {
-
-    padding-top: 2em;
 
     h3 {
       font-size: 18px;
@@ -36,6 +45,10 @@ footer {
     .box {
       border-left: 1px solid #fff;
       height: 154px;
+      margin: 2em 0;
+      &:last-child {
+        border-right: 1px solid #fff;
+      }
       p {
         font-size: 14px;
       }

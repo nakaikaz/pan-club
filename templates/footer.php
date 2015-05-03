@@ -52,9 +52,9 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12 copyright">&copy; 2015 有限会社オベリスク</div>
-      </div>
+    </div>
+    <div class="full-width">
+      <div class="copyright">&copy; 2015 有限会社オベリスク</div>
     </div>
   </footer>
 
