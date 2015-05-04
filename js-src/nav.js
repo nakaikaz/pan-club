@@ -29,6 +29,7 @@ if($.cookie('tabIndex')) {
   //storeQueryAndToggleButton($('.tab-nav li:eq(' + tabIndex + ')'));
 }*/
 
+// #nav-wrapperのtransitionは0.8s
 $('#menu-toggle').click(function(e){
   e.preventDefault();
   $('#nav-wrapper').toggleClass('active');
@@ -57,5 +58,10 @@ $('.tab-nav li:eq(2) a').click(function(e){
   $('#nav-wrapper').toggleClass('active');
 });*/
 $('.tab-nav li a').click(function(){
+  var href = $(this).attr('href');
+  $("#nav-wrapper").on("oTransitionEnd mozTransitionEnd webkitTransitionEnd transitionend",function(){
+    location.href = href;
+  });
   $('#nav-wrapper').toggleClass('active');
+  return false;
 });

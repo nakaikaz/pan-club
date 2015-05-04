@@ -12,7 +12,7 @@ module.exports = function(grunt){
     concat: {
       js: {
         src: [
-          './js-src/nav.js', './js-src/carousel.js', './js-src/wow-conf.js', './js-src/top-page.js'
+          './js-src/nav.js', './js-src/carousel.js', './js-src/wow-conf.js', './js-src/top-page.js', './js-src/imageLoader.js'
         ],
         dest: './js/pan-club.js'
       }
@@ -30,7 +30,7 @@ module.exports = function(grunt){
           yuicompress: false,
           optimization: 2
         },
-        src: ["./less/pan-club.less", "./less/header.less","./less/top-page.less", "./less/products-page.less", "./less/category.less", './less/footer.less', './less/company.less'],
+        src: ["./less/pan-club.less", "./less/header.less","./less/top-page.less", './less/about-page.less', "./less/products-page.less", "./less/category.less", './less/footer.less', './less/company.less'],
         dest: "./css/pan-club.css"
       }
     },
