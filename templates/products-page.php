@@ -1,4 +1,3 @@
-<!-- http://helbak.com/ -->
 <div id="products-list">
   <div class="container">
     <div class="row">
