@@ -48,6 +48,9 @@
   <script src="<?php echo $base_url; ?>/js/wow.min.js"></script>
   <script src="<?php echo $base_url; ?>/lightbox/js/lightbox.min.js"></script>
   <script src="<?php echo $base_url; ?>/js/pan-club.js"></script>
+  <?php if(isset($no_header_transition)) : ?>
+    <script>$('header .header-background').addClass('header-background-fixed');</script>
+  <?php endif; ?>
   <?php if(isset($include_access)) : ?>
     <script src="<?php echo $base_url; ?>/js/access.js"></script>
   <?php endif; ?>

@@ -1,3 +1,7 @@
+<?php
+$no_header_transition = true;
+?>
+
 <div id="products-list">
   <div class="container">
     <div class="row">

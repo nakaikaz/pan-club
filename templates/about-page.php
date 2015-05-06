@@ -1,3 +1,6 @@
+<?php
+$no_header_transition = true;
+?>
 <section id="delivery" class="values sync-image" style="background-image: url('img/bg-aside.jpg');">
   <div class="container wow fadeIn animated">
     <div class="row">
