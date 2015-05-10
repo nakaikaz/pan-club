@@ -30,7 +30,7 @@ module.exports = function(grunt){
           yuicompress: false,
           optimization: 2
         },
-        src: ["./less/pan-club.less", "./less/header.less","./less/top-page.less", './less/about-page.less', "./less/products-page.less", "./less/category.less", './less/footer.less', './less/company.less'],
+        src: ["./less/pan-club.less", "./less/header.less","./less/top-page.less", './less/about-page.less', "./less/products-page.less", './less/order-page.less', "./less/category.less", './less/footer.less', './less/company.less'],
         dest: "./css/pan-club.css"
       }
     },

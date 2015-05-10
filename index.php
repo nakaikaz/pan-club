@@ -29,6 +29,10 @@ $app->get('/about', function() use ($app){
 $app->get('/products', function() use ($app){
   $app->render('home.php', array('page' => 'products-page'));
 });
+// ご利用方法
+$app->get('/order', function() use ($app){
+  $app->render('home.php', array('page' => 'order-page'));
+});
 // 会社概要
 $app->get('/company', function() use ($app){
   $app->render('company.php', array('title' => '会社概要', 'include_map_api' => true ));
