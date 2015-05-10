@@ -40,8 +40,8 @@
   </footer>
 
   <script src="<?php echo $base_url; ?>/js/jquery.min.js"></script>
-  <script src="<?php echo $base_url; ?>/js/EventEmitter.min.js"></script>
   <script src="<?php echo $base_url; ?>/js/fakeLoader.min.js"></script>
+  <script src="<?php echo $base_url; ?>/js/EventEmitter.min.js"></script>
   <script src="<?php echo $base_url; ?>/js/bootstrap.min.js"></script>
   <script src="<?php echo $base_url; ?>/js/jquery.easing.min.js"></script>
   <script src="<?php echo $base_url; ?>/owl-carousel/owl.carousel.js"></script>

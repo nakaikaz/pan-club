@@ -12,7 +12,7 @@ module.exports = function(grunt){
     concat: {
       js: {
         src: [
-          './js-src/nav.js', './js-src/carousel.js', './js-src/wow-conf.js', './js-src/top-page.js', './js-src/imageLoader.js'
+          './js-src/imageLoader.js', './js-src/header.js', './js-src/carousel.js', './js-src/wow-conf.js', './js-src/top-page.js'
         ],
         dest: './js/pan-club.js'
       }

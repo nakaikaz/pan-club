@@ -3,8 +3,10 @@ include_once 'header.php';
 ?>
 
     <!-- Tab panels -->
-    <div id="tab-content">
-      <?php include $page . '.php' ?>
+    <?php
+    // 画面遷移後に、data-pageの値のphpファイルをロードする
+    ?>
+    <div id="tab-content" data-page="<?php echo $page; ?>">
     </div>
 
 <?php
