@@ -701,6 +701,16 @@ h2.content-title {
   text-align: center;
   font-size: 2em;
 }
+#how-to-order .media-body a {
+  color: #333;
+  font-weight: bold;
+}
+#how-to-order .contact-list {
+  background-color: #fff;
+}
+#how-to-order .contact-list .table {
+  margin: 0 auto;
+}
 @media (min-width: 768px) {
   #how-to-order .tab-pane {
     background-color: #fff;
@@ -708,6 +718,9 @@ h2.content-title {
     border-top-right-radius: 8px;
     margin-top: 1em;
     padding: 2em 0;
+  }
+  #how-to-order .contact-list .table {
+    width: 80%;
   }
   #how-to-order .order-note {
     background-color: #fff;
@@ -756,8 +769,12 @@ h2.content-title {
   }
 }
 @media (min-width: 1200px) {
+  #how-to-order .media-body {
+    line-height: 42px;
+  }
   #how-to-order .order-note .note-content {
     width: 65%;
+    margin-bottom: 20px;
   }
 }
 footer {
@@ -1555,6 +1572,16 @@ h2.content-title {
   text-align: center;
   font-size: 2em;
 }
+#how-to-order .media-body a {
+  color: #333;
+  font-weight: bold;
+}
+#how-to-order .contact-list {
+  background-color: #fff;
+}
+#how-to-order .contact-list .table {
+  margin: 0 auto;
+}
 @media (min-width: 768px) {
   #how-to-order .tab-pane {
     background-color: #fff;
@@ -1562,6 +1589,9 @@ h2.content-title {
     border-top-right-radius: 8px;
     margin-top: 1em;
     padding: 2em 0;
+  }
+  #how-to-order .contact-list .table {
+    width: 80%;
   }
   #how-to-order .order-note {
     background-color: #fff;
@@ -1610,8 +1640,12 @@ h2.content-title {
   }
 }
 @media (min-width: 1200px) {
+  #how-to-order .media-body {
+    line-height: 42px;
+  }
   #how-to-order .order-note .note-content {
     width: 65%;
+    margin-bottom: 20px;
   }
 }
 
