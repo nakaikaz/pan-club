@@ -17,6 +17,17 @@ h2 {
     background-color: #fff;
     .table {
       margin: 0 auto;
+      tr {
+        &:first-child {
+          th {
+            border-top: none;
+            text-align: center;
+          }
+        }
+        td {
+          text-align: center;
+        }
+      }
     }
   }
 }
@@ -29,12 +40,11 @@ h2 {
       border-top-right-radius: 8px;
       margin-top: 1em;
       padding: 2em 0;
-      //box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     }
 
     .contact-list {
       .table {
-        width: 80%;
+        width: 60%;
       }
     }
 
@@ -97,12 +107,19 @@ h2 {
 }
 @media (min-width: 1200px) {
   #how-to-order {
+    .tab-content {
+      margin-top: 28px;
+    }
     .media-body {
       line-height: 42px;
+    }
+    .order-step {
+      margin-bottom: 40px;
     }
     .order-note {
       .note-content {
         width: 65%;
+        padding-top: 40px;
         margin-bottom: 20px;
       }
     }

@@ -711,6 +711,13 @@ h2.content-title {
 #how-to-order .contact-list .table {
   margin: 0 auto;
 }
+#how-to-order .contact-list .table tr:first-child th {
+  border-top: none;
+  text-align: center;
+}
+#how-to-order .contact-list .table tr td {
+  text-align: center;
+}
 @media (min-width: 768px) {
   #how-to-order .tab-pane {
     background-color: #fff;
@@ -720,7 +727,7 @@ h2.content-title {
     padding: 2em 0;
   }
   #how-to-order .contact-list .table {
-    width: 80%;
+    width: 60%;
   }
   #how-to-order .order-note {
     background-color: #fff;
@@ -769,11 +776,18 @@ h2.content-title {
   }
 }
 @media (min-width: 1200px) {
+  #how-to-order .tab-content {
+    margin-top: 28px;
+  }
   #how-to-order .media-body {
     line-height: 42px;
   }
+  #how-to-order .order-step {
+    margin-bottom: 40px;
+  }
   #how-to-order .order-note .note-content {
     width: 65%;
+    padding-top: 40px;
     margin-bottom: 20px;
   }
 }
@@ -1582,6 +1596,13 @@ h2.content-title {
 #how-to-order .contact-list .table {
   margin: 0 auto;
 }
+#how-to-order .contact-list .table tr:first-child th {
+  border-top: none;
+  text-align: center;
+}
+#how-to-order .contact-list .table tr td {
+  text-align: center;
+}
 @media (min-width: 768px) {
   #how-to-order .tab-pane {
     background-color: #fff;
@@ -1591,7 +1612,7 @@ h2.content-title {
     padding: 2em 0;
   }
   #how-to-order .contact-list .table {
-    width: 80%;
+    width: 60%;
   }
   #how-to-order .order-note {
     background-color: #fff;
@@ -1640,11 +1661,18 @@ h2.content-title {
   }
 }
 @media (min-width: 1200px) {
+  #how-to-order .tab-content {
+    margin-top: 28px;
+  }
   #how-to-order .media-body {
     line-height: 42px;
   }
+  #how-to-order .order-step {
+    margin-bottom: 40px;
+  }
   #how-to-order .order-note .note-content {
     width: 65%;
+    padding-top: 40px;
     margin-bottom: 20px;
   }
 }
