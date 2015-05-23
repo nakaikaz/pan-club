@@ -1,4 +1,4 @@
-  <footer style="background: url('img/bg_footer.gif');">
+  <footer style="background: url('<?php echo $base_url; ?>/img/bg_footer.gif');">
     <div class="container">
       <div class="row">
         <div class="col-md-3 box">

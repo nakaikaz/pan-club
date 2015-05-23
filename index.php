@@ -26,9 +26,9 @@ $app->get('/about', function() use ($app){
   $app->render('home.php', array('page' => 'about-page'));
 });
 // 商品
-$app->get('/products', function() use ($app){
-  $app->render('home.php', array('page' => 'products-page'));
-});
+//$app->get('/products', function() use ($app){
+//  $app->render('home.php', array('page' => 'products-page'));
+//});
 // ご利用方法
 $app->get('/order', function() use ($app){
   $app->render('home.php', array('page' => 'order-page'));
@@ -41,13 +41,17 @@ $app->get('/company-old', function() use ($app){
   $app->render('company.old.php', array('title' => '会社概要', 'include_map_api' => true));
 });
 // 商品一覧ページ
-/*$app->group('/products', function() use ($app){
+$app->group('/products', function() use ($app){
   $app->get('/', function() use ($app){
-    $app->render('products.php', array('title' => '商品一覧'));
+    $app->render('home.php', array('page' => 'products-page', 'title' => '商品一覧'));
   });
   // 商品の各カテゴリー
   $app->get('/category-one', function() use ($app){
-    $app->render('category.php', array('title' => 'ロールパン', 'category' => 'one'));
+    $content = file_get_contents('json/category-one.json');
+    //echo $content;
+    $obj = json_decode($content);
+    $app->view->appendData(array('test' => 'abc'));
+    $app->render('home.php', array('page' => 'category-page', 'title' => 'ロールパン', 'content' => $content));
   });
   $app->get('/category-two', function() use ($app){
     $app->render('category.php', array('title' => 'デニッシュ', 'category' => 'two'));
@@ -64,7 +68,7 @@ $app->get('/company-old', function() use ($app){
   $app->get('/category-six', function() use ($app) {
     $app->render('category.php', array('title' => 'その他', 'category' => 'six'));
   });
-});*/
+});
 // テスト
 $app->get('/welcome', function() use ($app){
   $app->render('welcome.php');

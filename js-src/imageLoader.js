@@ -37,7 +37,8 @@
   imagesLoaded.done(function(){
     // #tab-contentにコンテンツをロード
     var page = $('#tab-content').attr('data-page');
-    $('#tab-content').load('templates/' + page + '.php', function(){
+    console.log('http://' + window.location.host + '/templates/' + page + '.php');
+    $('#tab-content').load('http://' + window.location.host + '/templates/' + page + '.php', function(){
       $('.top-cover').css('height', $(window).height() + 'px');
     });
     // header, #tab-content, footerはスタイルシートで非表示にしてある。

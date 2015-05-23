@@ -24,16 +24,16 @@
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <?php endif; ?>
   </head>
-  <body id="page-top" style="background: url('img/bg.gif');">
+  <body id="page-top" style="background: url('<?php echo $base_url; ?>/img/bg.gif');">
 
     <div id="loading"></div>
 
     <header>
       <div class="header-background" style="background-image: url('img/bg.gif');"></div>
-      <h1><a href="<?php echo $base_url; ?>"><img src="img/pan-club.png" alt="ぱんくらぶ"/></a></h1>
+      <h1><a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>/img/pan-club.png" alt="ぱんくらぶ"/></a></h1>
       <a id="menu-toggle" href="#" class="btn btn-lg pull-right toggle"><i class="fa fa-bars"></i></a>
       <nav id="nav-wrapper">
-        <h2><a href="<?php echo $base_url; ?>"><img src="img/pan-club.png" alt="ぱんくらぶ"/></a></h2>
+        <h2><a href="<?php echo $base_url; ?>"><img src="../img/pan-club.png" alt="ぱんくらぶ"/></a></h2>
         <a id="menu-close" href="#" class="btn btn-lg toggle"><i class="fa fa-times"></i></a>
         <ul class="tab-nav">
           <li><a href="/about">ぱんくらぶとは</a></li>
