@@ -37,7 +37,7 @@ $app->get('/order', function() use ($app){
 // 会社概要
 $app->get('/company', function() use ($app){
   $content = file_get_contents('templates/company-page.php');
-  $app->render('home.php', array('title' => '会社概要', 'include_map_api' => true, 'content' => $content));
+  $app->render('home.php', array('page' => 'company-page', 'title' => '会社概要', 'content' => $content, 'include_map_api' => true));
 });
 $app->get('/company-old', function() use ($app){
   $app->render('company.old.php', array('title' => '会社概要', 'include_map_api' => true));

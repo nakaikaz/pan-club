@@ -1,11 +1,10 @@
-$(window).bind('load scroll resize', function(){
-  //console.log($('header').offset().top);
+/*$(window).bind('load scroll resize', function(){
   if($('header').offset().top > 50){
     $('header').addClass('header-collapsed');
   } else {
     $('header').removeClass('header-collapsed');
   }
-});
+});*/
 
 
 // #nav-wrapperのtransitionは0.8s
