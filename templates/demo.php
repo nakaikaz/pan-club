@@ -1,6 +1,6 @@
 <?php
-
-$players = array(
+phpinfo();
+/*$players = array(
   'players' => array(
     array('name' => 'ジェレミー・メネス', 'nationality' => 'フランス', 'number' => 7, 'position' => 'FW'),
     array('name' => 'マッティア・デストロ', 'nationality' => 'イタリア', 'number' => 9, 'position' => 'FW'),
@@ -14,4 +14,4 @@ $json = json_encode($players, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
 
 echo '<pre>';
 print_r($json);
-echo '</pre>';
+echo '</pre>';*/

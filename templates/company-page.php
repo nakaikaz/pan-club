@@ -1,8 +1,3 @@
-<?php
-$include_access = true;
-include_once 'header.php';
-?>
-
   <!-- http://getbootstrap.com/examples/dashboard/ -->
   <div id="company-content" class="container">
     <!-- .second-row -->
@@ -64,6 +59,3 @@ include_once 'header.php';
       </div>
     </div>
   </div>
-
-
-<?php include_once 'footer.php'; ?>

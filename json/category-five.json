@@ -1,0 +1,17 @@
+{
+  "items": [
+    {"img": "img/category-one/01.jpg", "name": "角食パン", "comment": "食卓の定番です", "price": 440},
+    {"img": "img/category-one/02.jpg", "name": "山型食パン", "comment": "蓋無しで焼き上げています", "price": 440},
+    {"img": "img/category-one/03.jpg", "name": "ちび食パン", "comment": "耳までソフトに焼き上げました", "price": 400},
+    {"img": "img/category-one/04.jpg", "name": "ちび食メープル", "comment": "メープル風味のクロワッサンを小型食パンに", "price": 450},
+    {"img": "img/category-one/05.jpg", "name": "ちび食レーズン", "comment": "レーズンたっぷりの小型食パン", "price": 410},
+    {"img": "img/category-one/06.jpg", "name": "バターロール", "comment": "バター風味豊かなロールパン", "price": 340},
+    {"img": "img/category-one/07.jpg", "name": "黒豆食パン", "comment": "丹波産の大粒黒豆を使用した小型食パン", "price": 290},
+    {"img": "img/category-one/08.jpg", "name": "バタール", "comment": "長さ４５ｃｍのフランスパン", "price": 330},
+    {"img": "img/category-one/09.jpg", "name": "オニオンブレット", "comment": "玉ねぎをたっぷり使いました", "price": 370},
+    {"img": "img/category-one/10.jpg", "name": "フレッシュブレット", "comment": "元祖フレッシュブレットの小型版", "price": 490},
+    {"img": "img/category-one/11.jpg", "name": "イチゴブレット", "comment": "イチゴジャムを丁寧に折り込みました", "price": 440},
+    {"img": "img/category-one/12.jpg", "name": "あずきブレット", "comment": "ほのかに甘い小豆の小型食パン", "price": 470}
+  ],
+  "description" : "カリッと香ばしいワッフルをはじめ、クレープやパンケーキ、アジアのお菓子などをまとめてみました！"
+}

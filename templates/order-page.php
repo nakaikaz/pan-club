@@ -1,7 +1,3 @@
-<?php
-$no_header_transition = true;
-?>
-
 <section id="how-to-order">
   <div class="container">
     <div class="row">
