@@ -19,9 +19,9 @@
 
     <div class="row">
       <div class="col-md-12 guide-item">
-        <a href="/guide">
+        <a href="/order">
           <div style="background-image: url('img/guide.jpg');" class="guide-cover">
-            <h3 class="link-text">ご利用ガイド<i class="fa fa-angle-right"></i></h3>
+            <h3 class="link-text">ご利用方法<i class="fa fa-angle-right"></i></h3>
           </div>
         </a>
       </div>
