@@ -81,6 +81,9 @@ $app->group('/products', function() use ($app){
     $app->render('home.php', array('page' => 'category-page', 'title' => 'その他', 'content' => $content));
   });
 });
+$app->get('/hachinohe-office', function() use ($app){
+  $app->render('hachinohe-office.php');
+});
 // テスト
 $app->get('/welcome', function() use ($app){
   $app->render('welcome.php');
