@@ -1,4 +1,4 @@
-<div id="products-list">
+<div id="products-list" class="content">
   <div class="container">
     <div class="row">
       <!-- ロールパン -->

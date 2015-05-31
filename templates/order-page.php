@@ -1,4 +1,4 @@
-<section id="how-to-order">
+<section id="how-to-order" class="content">
   <div class="container">
     <div class="row">
       <div class="col-md-12">

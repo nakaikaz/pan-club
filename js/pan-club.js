@@ -44,7 +44,7 @@
     // header, #tab-content, footerはスタイルシートで非表示にしてある。
     // 画面遷移して、.5s秒経過後、header, #tab-content, footerを表示した後、fakeLoaderをフェードアウトする。
     setTimeout(function(){
-      $('#tab-content, header, footer').show();
+      $('header, footer, .content').show();
       $('#loading').fadeOut();
     }, 500);
   });
@@ -52,14 +52,13 @@
   });
 })(jQuery);
 
-$(window).bind('load scroll resize', function(){
-  //console.log($('header').offset().top);
+/*$(window).bind('load scroll resize', function(){
   if($('header').offset().top > 50){
     $('header').addClass('header-collapsed');
   } else {
     $('header').removeClass('header-collapsed');
   }
-});
+});*/
 
 
 // #nav-wrapperのtransitionは0.8s
@@ -124,9 +123,4 @@ $(function(){
   if(!isMobile){
     new WOW({offset: 50}).init();
   }
-});
-
-$(window).bind('load resize', function(){
-  var h = $(window).height();
-  $('.top-cover').css('height', h + 'px');
 });

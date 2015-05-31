@@ -44,7 +44,7 @@
     // header, #tab-content, footerはスタイルシートで非表示にしてある。
     // 画面遷移して、.5s秒経過後、header, #tab-content, footerを表示した後、fakeLoaderをフェードアウトする。
     setTimeout(function(){
-      $('#tab-content, header, footer').show();
+      $('header, footer, .content').show();
       $('#loading').fadeOut();
     }, 500);
   });

@@ -6,9 +6,9 @@ include_once 'header.php';
     <?php
     // 画面遷移後に、data-pageの値のphpファイルをロードする
     ?>
-    <div id="tab-content" data-page="<?php echo $page; ?>">
-      <?php echo $content; ?>
-    </div>
+    <!--<div id="tab-content" data-page="<?php echo $page; ?>"></div>-->
+
+    <?php echo $content; ?>
 
 <?php
 include_once 'footer.php';

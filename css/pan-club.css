@@ -70,7 +70,7 @@ section.message-space {
 header {
   display: none;
 }
-#tab-content {
+.content {
   display: none;
 }
 footer {
@@ -292,7 +292,7 @@ footer {
 }
 .top-cover {
   position: relative;
-  display: block;
+  display: table;
   height: 100%;
   width: auto;
   background-color: #fff;
@@ -1174,7 +1174,7 @@ footer .full-width .copyright {
 
 .top-cover {
   position: relative;
-  display: block;
+  display: table;
   height: 100%;
   width: auto;
   background-color: #fff;

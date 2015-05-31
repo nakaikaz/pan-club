@@ -1,7 +1,7 @@
 <?php
 $no_header_transition = true;
 ?>
-<section id="delivery" class="values sync-image" style="background-image: url('img/bg-aside.jpg');">
+<section id="delivery" class="values sync-image content" style="background-image: url('img/bg-aside.jpg');">
   <div class="container wow fadeIn animated">
     <div class="row">
       <div class="col-lg-12">
@@ -13,7 +13,7 @@ $no_header_transition = true;
 </section>
 
 <!-- .message-space -->
-<section class="bg-gray message-space">
+<section class="bg-gray message-space content">
   <div class="container wow fadeIn animated">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -27,7 +27,7 @@ $no_header_transition = true;
 
 
 <!-- #bakery -->
-<section id="bakery" class="values sync-image" style="background-image:url('img/bg-bakery.jpg');">
+<section id="bakery" class="values sync-image content" style="background-image:url('img/bg-bakery.jpg');">
   <div class="container wow fadeIn animated">
     <div class="row">
       <div class="col-lg-12">
@@ -39,7 +39,7 @@ $no_header_transition = true;
 </section>
 
 <!-- .message-space -->
-<section class="bg-gray message-space">
+<section class="bg-gray message-space content">
   <div class="container wow fadeIn animated">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -53,7 +53,7 @@ $no_header_transition = true;
 
 
 <!-- #wheat -->
-<section id="wheat" class="values sync-image" style="background-image: url('img/bg-wheat.jpg');">
+<section id="wheat" class="values sync-image content" style="background-image: url('img/bg-wheat.jpg');">
   <div class="container wow fadeIn animated">
     <div class="row">
       <div class="col-lg-12">
@@ -66,7 +66,7 @@ $no_header_transition = true;
 
 
 <!-- #campaign -->
-<section id="campaign" calss="">
+<section id="campaign" calss="content">
   <div class="container wow fadeIn animated">
     <div class="row content-row">
       <div class="col-lg-12">
