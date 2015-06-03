@@ -1655,6 +1655,10 @@ h2.content-title {
   }
 }
 
+.fancy-gallery {
+  display: none;
+  width: 500px;
+}
 .business-header {
   height: 160px;
   background: no-repeat center center scroll;

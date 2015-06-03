@@ -12,7 +12,8 @@
       <div class="product-carousel">
         <?php foreach($obj->items as $item) : ?>
         <div class="col-xs-12 col-md-3 col-lg-2 item">
-          <a class="thumbnail fancybox visible-md-block visible-lg-block" href="<?php echo '/' . $item->img; ?>" data-title="<h4><?php echo $item->name; ?></h4><p><?php echo $item->comment; ?></p>">
+          <a rel="gallery" class="thumbnail fancy-image visible-md-block visible-lg-block" href="#<?php echo $item->id; ?>"
+            data-title="<?php echo $item->name; ?>" data-comment="<?php echo $item->comment; ?>" data-price="<?php echo $item->price; ?>">
             <img class="img-responsive" src="<?php echo '/' . $item->img; ?>" alt="<?php echo $item->name; ?>">
           </a>
           <img class="img-responsive visible-xs-block visible-sm-block" src="<?php echo '/' . $item->img; ?>" alt="<?php echo $item->name; ?>">
@@ -27,3 +28,9 @@
     </div>
   </div>
 </section>
+
+<?php foreach($obj->items as $item): ?>
+  <div class="fancy-gallery" id="<?php echo $item->id; ?>">
+    <img src="<?php echo '/' . $item->img; ?>" alt="<?php echo $item->name; ?>"/>
+  </div>
+<?php endforeach; ?>

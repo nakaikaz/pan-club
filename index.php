@@ -90,7 +90,9 @@ $app->get('/welcome', function() use ($app){
 });
 // デモ
 $app->get('/demo', function() use ($app){
-  $app->render('demo.php');
+  $content = file_get_contents('templates/demo.php');
+  $app->render('home.php', array('page' => 'top-page', 'content' => $content));
+  //$app->render('demo.php');
 });
 
 

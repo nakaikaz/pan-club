@@ -1,17 +1,35 @@
-<?php
-phpinfo();
-/*$players = array(
-  'players' => array(
-    array('name' => 'ジェレミー・メネス', 'nationality' => 'フランス', 'number' => 7, 'position' => 'FW'),
-    array('name' => 'マッティア・デストロ', 'nationality' => 'イタリア', 'number' => 9, 'position' => 'FW'),
-    array('name' => '本田 圭佑', 'nationality' => '日本', 'number' => 10, 'position' => 'MF'),
-    array('name' => 'ナイジェル・デ・ヨング', 'nationality' => 'オランダ', 'number' => 34, 'position' => 'MF')
-  ),
-  'description' => 'ACミランの選手一覧'
- );
+<section id="category-one" class="product-thumbnails">
+  <div class="business-header hidden-xs" style="background-image: url('/img/category-one-cover.jpg');">
+    <h3>テストページ</h3>
+  </div>
+  <div class="container">
+    <div class="row visible-xs">
+      <div class="col-xs-12">
+        <h3 class="header-line">テストです。</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="product-carousel">
+        <div class="col-xs-12 col-md-3 col-lg-2 item">
+          <a class="thumbnail fancy-image visible-md-block visible-lg-block" href="#test">
+            <img class="img-responsive" src="/img/category-one/01.jpg" alt="テスト">
+          </a>
+          <img class="img-responsive visible-xs-block visible-sm-block" src="/img/category-one/01.jpg" alt="テスト">
+          <div class="product-description">
+            <h4 class="name">なまえ</h4>
+            <p class="comment visible-xs visible-sm">コメント</p>
+            <p class="price">100円</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-$json = json_encode($players, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
-
-echo '<pre>';
-print_r($json);
-echo '</pre>';*/
+<div class="fancy-gallery" id="test">
+  <img src="/img/category-one/01.jpg" alt="てすと"/>
+  <h5>テスト</h5>
+  <p>
+    テストぱん
+  </p>
+</div>
