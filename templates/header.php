@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>/owl-carousel/owl.transitions.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>/css/animate.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>/lightbox/css/lightbox.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>/fancybox/jquery.fancybox.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>/css/pan-club.css" />
     <?php if(isset($include_map_api)) : ?>
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>

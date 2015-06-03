@@ -1,0 +1,94 @@
+.fancybox {
+  &:hover {
+    text-decoration: none;
+  }
+  .label {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:768px) {
+
+  .company-content {
+    background-color: #fff;
+    border-radius: 8px;
+
+    h3 {
+      font-size: 21px;
+    }
+
+    .company-description, .access-description {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      padding: 0 15px;
+    }
+
+  }
+
+  .company-description {
+
+    .sidebar, .main {
+      height:380px
+    }
+
+    .sidebar {
+      border-right:1px solid #ccc;
+    }
+
+    dl {
+      margin-bottom:0;
+      dt {
+        text-align:left;
+        text-indent: 1em;
+      }
+      dd {
+        text-align:left;
+        text-indent:2em;
+      }
+      dt, dd {
+        padding:10px 0;
+        height:4em;
+        line-height:42px;
+      }
+    }
+
+  }
+
+  .access-description {
+
+    .sidebar, .main {
+      height:170px;
+    }
+
+    .sidebar {
+      border-right:1px solid #ccc;
+    }
+
+    .main {
+      padding-top: 20px;
+    }
+
+    dl {
+      dt {
+        text-align: left;
+        text-indent: 1em;
+      }
+      dt, dd {
+        height: 2em;
+        line-height: 32px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1192px) {
+  #hachinohe-branch,
+  #morioka-branch,
+  #akita-branch {
+    position: relative;
+    display: none;
+    width: 960px;
+    height: 600px;
+
+  }
+}

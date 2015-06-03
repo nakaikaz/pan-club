@@ -860,85 +860,79 @@ footer .full-width .copyright {
     margin-bottom: 1em;
   }
 }
+.fancybox:hover {
+  text-decoration: none;
+}
+.fancybox .label {
+  font-size: 16px;
+}
 @media (min-width: 768px) {
   .company-content {
     background-color: #fff;
     border-radius: 8px;
   }
-  .company-content h2 {
+  .company-content h3 {
     font-size: 21px;
-    margin: 0;
   }
   .company-content .company-description,
   .company-content .access-description {
     margin-top: 2em;
+    margin-bottom: 2em;
     padding: 0 15px;
   }
-  .company-content .company-description .sidebar,
-  .company-content .company-description .main {
+  .company-description .sidebar,
+  .company-description .main {
     height: 380px;
   }
-  .company-content .company-description .sidebar {
+  .company-description .sidebar {
     border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
   }
-  .company-content .access-description .sidebar,
-  .company-content .access-description .main {
-    height: auto;
+  .company-description dl {
+    margin-bottom: 0;
   }
-  .company-content .access-description .sidebar {
+  .company-description dl dt {
+    text-align: left;
+    text-indent: 1em;
+  }
+  .company-description dl dd {
+    text-align: left;
+    text-indent: 2em;
+  }
+  .company-description dl dt,
+  .company-description dl dd {
+    padding: 10px 0;
+    height: 4em;
+    line-height: 42px;
+  }
+  .access-description .sidebar,
+  .access-description .main {
+    height: 170px;
+  }
+  .access-description .sidebar {
     border-right: 1px solid #ccc;
-    height: 1092px;
   }
-  .company-content .access-description .main .row {
-    margin: 0;
+  .access-description .main {
+    padding-top: 20px;
   }
-  .company-content .access-description .office-access {
-    border-bottom: none;
+  .access-description dl dt {
+    text-align: left;
+    text-indent: 1em;
+  }
+  .access-description dl dt,
+  .access-description dl dd {
+    height: 2em;
+    line-height: 32px;
   }
 }
-.office-access {
-  height: inherit;
-  border-bottom: 1px solid #ccc;
-}
-.office-access dl {
-  margin-bottom: 0;
-}
-.office-access dl dt {
-  text-align: left;
-  text-indent: 2em;
-  padding: 10px 0;
-  height: 4em;
-  line-height: 42px;
-}
-.office-access dl dd {
-  text-align: left;
-  text-indent: 2em;
-  padding: 10px 0;
-  height: 4em;
-  line-height: 42px;
-}
-.office-access dl dd ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.office-access dl dd ul li {
-  text-indent: 0;
-}
-.office-access dl dd .branch-name {
-  font-weight: bold;
-  margin-right: 2em;
-}
-#hachinohe-branch-map2,
-#morioka-branch-map2,
-#akita-branch-map2 {
-  width: 100%;
-  height: 300px;
-  border-top: 4px solid #492219;
-  border-bottom: 4px solid #492219;
-  border-top: none;
-  border-bottom: none;
+@media (min-width: 1192px) {
+  #hachinohe-branch,
+  #morioka-branch,
+  #akita-branch {
+    position: relative;
+    display: none;
+    width: 960px;
+    height: 600px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1830,83 +1824,77 @@ footer .full-width .copyright {
   }
 }
 
+.fancybox:hover {
+  text-decoration: none;
+}
+.fancybox .label {
+  font-size: 16px;
+}
 @media (min-width: 768px) {
   .company-content {
     background-color: #fff;
     border-radius: 8px;
   }
-  .company-content h2 {
+  .company-content h3 {
     font-size: 21px;
-    margin: 0;
   }
   .company-content .company-description,
   .company-content .access-description {
     margin-top: 2em;
+    margin-bottom: 2em;
     padding: 0 15px;
   }
-  .company-content .company-description .sidebar,
-  .company-content .company-description .main {
+  .company-description .sidebar,
+  .company-description .main {
     height: 380px;
   }
-  .company-content .company-description .sidebar {
+  .company-description .sidebar {
     border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
   }
-  .company-content .access-description .sidebar,
-  .company-content .access-description .main {
-    height: auto;
+  .company-description dl {
+    margin-bottom: 0;
   }
-  .company-content .access-description .sidebar {
+  .company-description dl dt {
+    text-align: left;
+    text-indent: 1em;
+  }
+  .company-description dl dd {
+    text-align: left;
+    text-indent: 2em;
+  }
+  .company-description dl dt,
+  .company-description dl dd {
+    padding: 10px 0;
+    height: 4em;
+    line-height: 42px;
+  }
+  .access-description .sidebar,
+  .access-description .main {
+    height: 170px;
+  }
+  .access-description .sidebar {
     border-right: 1px solid #ccc;
-    height: 1092px;
   }
-  .company-content .access-description .main .row {
-    margin: 0;
+  .access-description .main {
+    padding-top: 20px;
   }
-  .company-content .access-description .office-access {
-    border-bottom: none;
+  .access-description dl dt {
+    text-align: left;
+    text-indent: 1em;
+  }
+  .access-description dl dt,
+  .access-description dl dd {
+    height: 2em;
+    line-height: 32px;
   }
 }
-.office-access {
-  height: inherit;
-  border-bottom: 1px solid #ccc;
-}
-.office-access dl {
-  margin-bottom: 0;
-}
-.office-access dl dt {
-  text-align: left;
-  text-indent: 2em;
-  padding: 10px 0;
-  height: 4em;
-  line-height: 42px;
-}
-.office-access dl dd {
-  text-align: left;
-  text-indent: 2em;
-  padding: 10px 0;
-  height: 4em;
-  line-height: 42px;
-}
-.office-access dl dd ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.office-access dl dd ul li {
-  text-indent: 0;
-}
-.office-access dl dd .branch-name {
-  font-weight: bold;
-  margin-right: 2em;
-}
-#hachinohe-branch-map2,
-#morioka-branch-map2,
-#akita-branch-map2 {
-  width: 100%;
-  height: 300px;
-  border-top: 4px solid #492219;
-  border-bottom: 4px solid #492219;
-  border-top: none;
-  border-bottom: none;
+@media (min-width: 1192px) {
+  #hachinohe-branch,
+  #morioka-branch,
+  #akita-branch {
+    position: relative;
+    display: none;
+    width: 960px;
+    height: 600px;
+  }
 }
