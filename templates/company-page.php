@@ -46,7 +46,7 @@
                   <dd>〒０３１−０８０１ 青森県八戸市江陽５丁目１５−１２</dd>
                 </dl>
               </div>
-              <div class="col-md-2"><a href="#hachinohe-branch" class="fancybox"><span class="label label-info">地図</span></a></div>
+              <div class="col-md-2"><a href="#hachinohe-branch" class="fancy-map"><span class="label label-info">地図</span></a></div>
             </div>
             <div class="row">
               <div class="col-md-10">
@@ -55,7 +55,7 @@
                   <dd>〒０２０−０１２７ 岩手県盛岡市前九年２丁目１３−２３</dd>
                 </dl>
               </div>
-              <div class="col-md-2"><a href="#morioka-branch" class="fancybox"><span class="label label-info">地図</span></a></div>
+              <div class="col-md-2"><a href="#morioka-branch" class="fancy-map"><span class="label label-info">地図</span></a></div>
             </div>
             <div class="row">
               <div class="col-md-10">
@@ -64,7 +64,7 @@
                   <dd>〒０１１−０９３６ 秋田県秋田市将軍野南３丁目９−１０</dd>
                 </dl>
               </div>
-              <div class="col-md-2"><a href="#akita-branch" class="fancybox"><span class="label label-info">地図</span></a></div>
+              <div class="col-md-2"><a href="#akita-branch" class="fancy-map"><span class="label label-info">地図</span></a></div>
             </div>
         </div>
       </div>

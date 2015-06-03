@@ -860,10 +860,10 @@ footer .full-width .copyright {
     margin-bottom: 1em;
   }
 }
-.fancybox:hover {
+.fancy-map:hover {
   text-decoration: none;
 }
-.fancybox .label {
+.fancy-map .label {
   font-size: 16px;
 }
 @media (min-width: 768px) {
@@ -1824,10 +1824,10 @@ footer .full-width .copyright {
   }
 }
 
-.fancybox:hover {
+.fancy-map:hover {
   text-decoration: none;
 }
-.fancybox .label {
+.fancy-map .label {
   font-size: 16px;
 }
 @media (min-width: 768px) {

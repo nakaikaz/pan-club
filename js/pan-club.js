@@ -145,7 +145,7 @@ function initMap(name, loc) {
 }
 
 $(function() {
-  $('.fancybox').fancybox({
+  $('.fancy-map').fancybox({
     maxWidth	: 960,
 		maxHeight	: 600,
 		fitToView	: false,

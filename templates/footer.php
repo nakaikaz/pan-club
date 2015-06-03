@@ -46,7 +46,6 @@
   <script src="<?php echo $base_url; ?>/js/jquery.easing.min.js"></script>
   <script src="<?php echo $base_url; ?>/owl-carousel/owl.carousel.js"></script>
   <script src="<?php echo $base_url; ?>/js/wow.min.js"></script>
-  <script src="<?php echo $base_url; ?>/lightbox/js/lightbox.min.js"></script>
   <script src="<?php echo $base_url; ?>/fancybox/jquery.fancybox.pack.js"></script>
   <script src="<?php echo $base_url; ?>/js/pan-club.js"></script>
   <?php if(isset($no_header_transition)) : ?>
