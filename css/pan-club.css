@@ -1902,3 +1902,62 @@ footer .full-width .copyright {
     height: 600px;
   }
 }
+
+@media (min-width: 768px) {
+  #recruit-page .pane {
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 1em;
+    padding: 2em 4em;
+  }
+  #recruit-page .description {
+    margin-top: 1em;
+  }
+  #recruit-page .description dt {
+    text-align: left;
+  }
+  #recruit-page .description dt {
+    margin-bottom: 1.8em;
+  }
+  #recruit-page .contact-div {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    border-radius: 8px;
+  }
+  #recruit-page .contact-div dl {
+    margin-bottom: 0;
+  }
+  #recruit-page .contact-div dl dt {
+    margin-bottom: 1em;
+  }
+  #recruit-page .contact-div .address,
+  #recruit-page .contact-div .phone {
+    float: left;
+  }
+  #recruit-page .contact-div .address {
+    width: 35%;
+  }
+  #recruit-page .contact-div .phone {
+    width: 15%;
+  }
+}
+
+@media (min-width: 768px) {
+  #news-page .pane {
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 1em;
+    padding: 2em 4em;
+  }
+  #news-page .description {
+    margin-top: 1em;
+  }
+  #news-page .description dt {
+    text-align: left;
+  }
+  #news-page .description dt {
+    margin-bottom: 1.8em;
+  }
+}

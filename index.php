@@ -22,22 +22,22 @@ $app->hook('slim.before', function() use ($app){
 // トップページ
 $app->get('/', function() use ($app){
   $content = file_get_contents('templates/top-page.php');
-  $app->render('home.php', array('page' => 'top-page', 'content' => $content));
+  $app->render('home.php', array('content' => $content));
 });
 // ぱんくらぶとは
 $app->get('/about', function() use ($app){
   $content = file_get_contents('templates/about-page.php');
-  $app->render('home.php', array('page' => 'about-page', 'content' => $content));
+  $app->render('home.php', array('content' => $content));
 });
 // ご利用方法
 $app->get('/order', function() use ($app){
   $content = file_get_contents('templates/order-page.php');
-  $app->render('home.php', array('page' => 'order-page', 'content' => $content, 'no_header_transition' => true));
+  $app->render('home.php', array('content' => $content, 'no_header_transition' => true));
 });
 // 会社概要
 $app->get('/company', function() use ($app){
   $content = file_get_contents('templates/company-page.php');
-  $app->render('home.php', array('page' => 'company-page', 'title' => '会社概要', 'content' => $content, 'include_map_api' => true));
+  $app->render('home.php', array('title' => '会社概要', 'content' => $content, 'include_map_api' => true));
 });
 $app->get('/company-old', function() use ($app){
   $app->render('company.old.php', array('title' => '会社概要', 'include_map_api' => true));
@@ -47,18 +47,18 @@ $app->group('/products', function() use ($app){
   $myView = new myView('templates');
   $app->get('/', function() use ($app){
     $content = file_get_contents('templates/products-page.php');
-    $app->render('home.php', array('page' => 'products-page', 'title' => '商品一覧', 'content' => $content, 'no_header_transition' => true));
+    $app->render('home.php', array('title' => '商品一覧', 'content' => $content, 'no_header_transition' => true));
   });
   // 商品の各カテゴリー
   $app->get('/category-one', function() use ($app, $myView){
     $obj = json_decode(file_get_contents('json/category-one.json'));
     $content = $myView->render('category-page.php', array('category' => 'one', 'obj' => $obj));
-    $app->render('home.php', array('page' => 'category-page', 'title' => 'ロールパン', 'content' => $content, 'no_header_transition' => true));
+    $app->render('home.php', array('title' => 'ロールパン', 'content' => $content, 'no_header_transition' => true));
   });
   $app->get('/category-two', function() use ($app, $myView){
     $obj = json_decode(file_get_contents('json/category-two.json'));
     $content = $myView->render('category-page.php', array('category' => 'two', 'obj' => $obj));
-    $app->render('home.php', array('page' => 'category-page', 'title' => 'デニッシュ', 'content' => $content));
+    $app->render('home.php', array('title' => 'デニッシュ', 'content' => $content));
   });
   $app->get('/category-three', function() use ($app, $myView) {
     $obj = json_decode(file_get_contents('json/category-three.json'));
@@ -73,21 +73,28 @@ $app->group('/products', function() use ($app){
   $app->get('/category-five', function() use ($app, $myView) {
     $obj = json_decode(file_get_contents('json/category-five.json'));
     $content = $myView->render('category-page.php', array('category' => 'five', 'obj' => $obj));
-    $app->render('home.php', array('page' => 'category-page', 'title' => '洋菓子・和菓子', 'content' => $content));
+    $app->render('home.php', array('title' => '洋菓子・和菓子', 'content' => $content));
   });
   $app->get('/category-six', function() use ($app, $myView) {
     $obj = json_decode(file_get_contents('json/category-six.json'));
     $content = $myView->render('category-page.php', array('category' => 'six', 'obj' => $obj));
-    $app->render('home.php', array('page' => 'category-page', 'title' => 'その他', 'content' => $content));
+    $app->render('home.php', array('title' => 'その他', 'content' => $content));
   });
 });
 $app->get('/hachinohe-office', function() use ($app){
   $app->render('hachinohe-office.php');
 });
-// テスト
-$app->get('/welcome', function() use ($app){
-  $app->render('welcome.php');
+// 採用情報
+$app->get('/recruit', function() use ($app) {
+  $content = file_get_contents('templates/recruit-page.php');
+  $app->render('home.php', array('content' => $content));
 });
+// お知らせ
+$app->get('/news', function() use ($app) {
+  $content = file_get_contents('templates/news-page.php');
+  $app->render('home.php', array('content' => $content));
+});
+
 // デモ
 $app->get('/demo', function() use ($app){
   $content = file_get_contents('templates/demo.php');

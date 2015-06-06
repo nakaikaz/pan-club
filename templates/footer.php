@@ -28,7 +28,7 @@
               <a href="/news">お知らせ</a>
             </div>
             <div class="col-md-offset-2 col-md-10">
-              <a href="#">採用情報</a>
+              <a href="/recruit">採用情報</a>
             </div>
           </div>
         </div>
