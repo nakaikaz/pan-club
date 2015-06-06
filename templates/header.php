@@ -39,7 +39,6 @@
           <li><a href="/about">ぱんくらぶとは</a></li>
           <li><a href="/products">商&emsp;&emsp;品</a></li>
           <li><a href="/order">ご利用方法</a></li>
-          <li><a href="/contact">コンタクト</a></li>
         </ul>
       </nav>
     </header>

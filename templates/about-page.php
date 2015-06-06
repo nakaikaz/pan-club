@@ -1,8 +1,8 @@
 <?php
 $no_header_transition = true;
 ?>
+
 <section id="delivery" class="values sync-image content" style="background-image: url('img/bg-aside.jpg');">
-  <div class="container wow fadeIn animated">
     <div class="row">
       <div class="col-lg-12">
         <h2>宅  配</h2>
@@ -19,7 +19,7 @@ $no_header_transition = true;
       <div class="col-lg-12 text-center">
         <p>「ぱんくらぶ」は青森県・岩手県・秋田県内で、平日週１回、みなさんの職場やご自宅へ宅配販売を行うパン屋です。</p>
         <p>販売車両にパンをつんで、スタッフがお伺いします。</p>
-        <p class="small">＊&nbsp;宅配地域はですが、一部販売していない地区もありますので各営業所にお電話で確認をお願いします。</p>
+        <p class="small">＊&nbsp;一部販売していない地区もありますので各営業所にお電話で確認をお願いします。</p>
       </div>
     </div>
   </div>
@@ -45,7 +45,7 @@ $no_header_transition = true;
       <div class="col-lg-12 text-center">
         <p>「ぱんくらぶ」は青森県・岩手県・秋田県内で、平日週１回、みなさんの職場やご自宅へ宅配販売を行うパン屋です。</p>
         <p>販売車両にパンをつんで、スタッフがお伺いします。</p>
-        <p class="small">＊&nbsp;宅配地域はですが、一部販売していない地区もありますので各営業所にお電話で確認をお願いします。</p>
+        <p class="small">＊&nbsp;一部販売していない地区もありますので各営業所にお電話で確認をお願いします。</p>
       </div>
     </div>
   </div>
