@@ -20,7 +20,7 @@
               <ul class="media-list order-step">
                 <li class="media">
                   <div class="media-left"><img class="media-object" src="img/step-01.gif" alt="01"></div>
-                  <div class="media-body"><a href="/products">販売商品</a>をご確認ください。</div>
+                  <div class="media-body"><a href="<?php echo $base_url; ?>/products">販売商品</a>をご確認ください。</div>
                 </li>
                 <li class="text-center"><i class="fa fa-caret-down"></i></li>
                 <li class="media">

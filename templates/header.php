@@ -33,12 +33,12 @@
       <h1><a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>/img/pan-club.png" alt="ぱんくらぶ"/></a></h1>
       <a id="menu-toggle" href="#" class="btn btn-lg pull-right toggle"><i class="fa fa-bars"></i></a>
       <nav id="nav-wrapper">
-        <h2><a href="<?php echo $base_url; ?>"><img src="../img/pan-club.png" alt="ぱんくらぶ"/></a></h2>
+        <h2><a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url; ?>/img/pan-club.png" alt="ぱんくらぶ"/></a></h2>
         <a id="menu-close" href="#" class="btn btn-lg toggle"><i class="fa fa-times"></i></a>
         <ul class="tab-nav">
-          <li><a href="/about">ぱんくらぶとは</a></li>
-          <li><a href="/products">商&emsp;&emsp;品</a></li>
-          <li><a href="/order">ご利用方法</a></li>
+          <li><a href="<?php echo $base_url; ?>/about">ぱんくらぶとは</a></li>
+          <li><a href="<?php echo $base_url; ?>/products">商&emsp;&emsp;品</a></li>
+          <li><a href="<?php echo $base_url; ?>/order">ご利用方法</a></li>
         </ul>
       </nav>
     </header>

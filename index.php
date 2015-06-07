@@ -12,7 +12,7 @@ $app = new \Slim\Slim(array(
 $app->hook('slim.before', function() use ($app){
   // Fetch the request’s URL (scheme + host [ + port if non-standard ])
   // slimが実行されバッファがアウトプットされる前なので、getUrl()でベースURLを取得できる
-  $base_url = $app->request->getUrl();
+  $base_url = $app->request->getUrl() . '/newsite';
   //$rootUri = $app->request->getRootUri();
   $app->view()->appendData(array(
     'base_url' => $base_url
@@ -31,7 +31,8 @@ $app->get('/about', function() use ($app){
 });
 // ご利用方法
 $app->get('/order', function() use ($app){
-  $content = file_get_contents('templates/order-page.php');
+  $myView = new myView('templates');
+  $content = $myView->render('order-page.php', array('base_url' => $app->request->getUrl() . '/newsite'));
   $app->render('home.php', array('content' => $content, 'no_header_transition' => true));
 });
 // 会社概要
@@ -45,39 +46,40 @@ $app->get('/company-old', function() use ($app){
 // 商品一覧ページ
 $app->group('/products', function() use ($app){
   $myView = new myView('templates');
-  $app->get('/', function() use ($app){
-    $content = file_get_contents('templates/products-page.php');
+  $app->get('/', function() use ($app, $myView){
+    $content = $myView->render('products-page.php', array('base_url' => $app->request->getUrl() . '/newsite'));
+    //$content = file_get_contents('templates/products-page.php');
     $app->render('home.php', array('title' => '商品一覧', 'content' => $content, 'no_header_transition' => true));
   });
   // 商品の各カテゴリー
   $app->get('/category-one', function() use ($app, $myView){
     $obj = json_decode(file_get_contents('json/category-one.json'));
-    $content = $myView->render('category-page.php', array('category' => 'one', 'obj' => $obj));
+    $content = $myView->render('category-page.php', array('category' => 'one', 'obj' => $obj, 'base_url' => $app->request->getUrl() . '/newsite'));
     $app->render('home.php', array('title' => 'ロールパン', 'content' => $content, 'no_header_transition' => true));
   });
   $app->get('/category-two', function() use ($app, $myView){
     $obj = json_decode(file_get_contents('json/category-two.json'));
-    $content = $myView->render('category-page.php', array('category' => 'two', 'obj' => $obj));
+    $content = $myView->render('category-page.php', array('category' => 'two', 'obj' => $obj, 'base_url' => $app->request->getUrl() . '/newsite'));
     $app->render('home.php', array('title' => 'デニッシュ', 'content' => $content));
   });
   $app->get('/category-three', function() use ($app, $myView) {
     $obj = json_decode(file_get_contents('json/category-three.json'));
-    $content = $myView->render('category-page.php', array('category' => 'three', 'obj' => $obj));
+    $content = $myView->render('category-page.php', array('category' => 'three', 'obj' => $obj, 'base_url' => $app->request->getUrl() . '/newsite'));
     $app->render('home.php', array('page' => 'category-page', 'title' => '菓子パン', 'content' => $content));
   });
   $app->get('/category-four', function() use ($app, $myView) {
     $obj = json_decode(file_get_contents('json/category-four.json'));
-    $content = $myView->render('category-page.php', array('category' => 'four', 'obj' => $obj));
+    $content = $myView->render('category-page.php', array('category' => 'four', 'obj' => $obj, 'base_url' => $app->request->getUrl() . '/newsite'));
     $app->render('home.php', array('page' => 'category-page', 'title' => '調理パン', 'content' => $content));
   });
   $app->get('/category-five', function() use ($app, $myView) {
     $obj = json_decode(file_get_contents('json/category-five.json'));
-    $content = $myView->render('category-page.php', array('category' => 'five', 'obj' => $obj));
+    $content = $myView->render('category-page.php', array('category' => 'five', 'obj' => $obj, 'base_url' => $app->request->getUrl() . '/newsite'));
     $app->render('home.php', array('title' => '洋菓子・和菓子', 'content' => $content));
   });
   $app->get('/category-six', function() use ($app, $myView) {
     $obj = json_decode(file_get_contents('json/category-six.json'));
-    $content = $myView->render('category-page.php', array('category' => 'six', 'obj' => $obj));
+    $content = $myView->render('category-page.php', array('category' => 'six', 'obj' => $obj, 'base_url' => $app->request->getUrl() . '/newsite'));
     $app->render('home.php', array('title' => 'その他', 'content' => $content));
   });
 });
@@ -92,7 +94,7 @@ $app->get('/recruit', function() use ($app) {
 // お知らせ
 $app->get('/news', function() use ($app) {
   $myView = new myView('templates');
-  $content = $myView->render('news-page.php', array('base_url' => $app->request->getUrl()));
+  $content = $myView->render('news-page.php', array('base_url' => $app->request->getUrl() . '/newsite'));
   $app->render('home.php', array('content' => $content));
 });
 
