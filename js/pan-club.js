@@ -104,20 +104,6 @@ $('#products-gallery').owlCarousel({
   }
 });
 
-
-
-$('.news-carousel').owlCarousel({
-  singleItem: true,
-  navigation: true,
-  pagination: true,
-  autoHeight: true,
-  navigationText: [
-    '<i class="fa fa-angle-left"></i>',
-    '<i class="fa fa-angle-right"></i>'
-  ],
-  transitionStyle: "backSlide"
-});
-
 var isMobile = 'ontouchstart' in document.documentElement;
 $(function(){
   if(!isMobile){

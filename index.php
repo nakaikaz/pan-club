@@ -91,7 +91,8 @@ $app->get('/recruit', function() use ($app) {
 });
 // お知らせ
 $app->get('/news', function() use ($app) {
-  $content = file_get_contents('templates/news-page.php');
+  $myView = new myView('templates');
+  $content = $myView->render('news-page.php', array('base_url' => $app->request->getUrl()));
   $app->render('home.php', array('content' => $content));
 });
 

@@ -21,17 +21,3 @@ $('#products-gallery').owlCarousel({
     $('#products-gallery img').addClass('img-responsive img-centered');
   }
 });
-
-
-
-$('.news-carousel').owlCarousel({
-  singleItem: true,
-  navigation: true,
-  pagination: true,
-  autoHeight: true,
-  navigationText: [
-    '<i class="fa fa-angle-left"></i>',
-    '<i class="fa fa-angle-right"></i>'
-  ],
-  transitionStyle: "backSlide"
-});
