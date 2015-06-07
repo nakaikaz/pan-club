@@ -9,16 +9,31 @@ footer {
   .col-xs-12 {
     margin: 1em 0;
   }
-  a {
-    font-size: 16px;
-    color: @font-color;
-    &:visited {
-      color: @font-color;
+  .box {
+    padding: 20px 15px;
+    border-bottom: 1px solid #fff;
+    h3 {
+      text-align: center;
     }
-    &:hover {
-      color: @font-color;
+    p {
+      text-align: center;
     }
   }
+
+  .links {
+    text-align: center;
+    a {
+      font-size: 18px;
+      color: @font-color;
+      &:visited {
+        color: @font-color;
+      }
+      &:hover {
+        color: @font-color;
+      }
+    }
+  }
+
   .full-width {
     background-color: #fff;
     //border-top: 4px solid #F15A24;
@@ -27,9 +42,10 @@ footer {
       color: #fff;
       margin: 1.4em auto;
       padding: 8px 0;
-      width: 200px;
+      width: 240px;
       background-color: #F15A24;
       border-radius: 24px;
+      text-align: center;
     }
   }
 
@@ -73,6 +89,7 @@ footer {
     }
 
     .copyright {
+      width: 200px;
       text-align: center;
       color: @font-color;
       font-size: 85%;

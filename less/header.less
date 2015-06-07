@@ -3,13 +3,21 @@
 @hover-color: #473A3D;
 @background-transition-property: opacity .6s ease;
 
+@default-title-logo-position: 10px 0 10px 15px;
+header {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  h1 {
+    margin: @default-title-logo-position;
+  }
+}
+
 @media (min-width: 768px) {
   header {
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    width: 100%;
     height:100px;
 
     .header-background {
@@ -44,55 +52,6 @@
       margin: 0;
       line-height: 100px;
       z-index: 3000;
-    }
-  }
-}
-
-
-.navbar-custom {
-  margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, .3);
-  background-color: #000;
-
-  a {
-    color: #fff;
-  }
-
-  .nav {
-    > li {
-      &.active {
-        outline: 0;
-      }
-      > a {
-        text-align: center;
-        padding: 10px 0;
-        -webkit-transition: background .3s ease-in-out;
-        -moz-transition: background .3s ease-in-out;
-        transition: background .3s ease-in-out;
-
-        &:hover {
-          outline: 0;
-          //color: rgba(255, 255, 255, .8);
-          background-color: transparent;
-        }
-      }
-    }
-  }
-}
-@media (min-width: 768px) {
-  .navbar-custom {
-    padding: 20px 0;
-    border-bottom: 0;
-    letter-spa: 1px;
-    background: 0 0;
-    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-
-    &.top-nav-collapse {
-      padding: 10px 0;
-      border-bottom: 1px solid rgba(255, 255, 255, .3);
-      background-color: #000;
     }
   }
 }
@@ -132,7 +91,7 @@
 
 // toggle
 .toggle {
-  margin: 5px 5px 0 0;
+  margin: 15px 15px 0 0;
 }
 @media (min-width: 768px) {
   .toggle {
@@ -146,7 +105,7 @@
 }
 #menu-toggle {
   z-index: 3000;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   border-radius: 100%;
@@ -155,6 +114,11 @@
   font-size: 18px;
   &:hover {
     color: #fff;
+  }
+}
+@media (min-width: 768px) {
+  #menu-toggle {
+    position: fixed;
   }
 }
 #menu-close {
@@ -189,6 +153,10 @@
     height: @transition-height;
     width: 100%;
   }
+  h2 {
+    margin: @default-title-logo-position;
+    padding: 0;
+  }
 }
 @media (min-width: 768px) {
   #nav-wrapper {
@@ -209,39 +177,43 @@
     }
   }
 }
-.tab-nav {
+
+@default-li-height: 80px;
+@large-li-height: 100px;
+.nav-position-center (@width, @hegiht) {
   position: absolute;
   top: 0;
-  width: 250px;
-  margin: 40px 0 0 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: @width;
+  height: @hegiht;
+}
+
+.tab-nav {
+  .nav-position-center(250px, (@default-li-height + 1) * 3);
   padding: 0;
   list-style: none;
 
   li {
-    text-indent: 20px;
-    line-height: 40px;
+    line-height: @default-li-height;
 
     a {
+      font-size: 28px;
+      text-align: center;
       display: block;
       text-decoration: none;
       color: #fff;
     }
   }
 }
-@li-height: 100px;
 @media (min-width: 768px) {
   .tab-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    width: 400px;
-    height: (@li-height + 1) * 3 ;
+    .nav-position-center(400px, (@large-li-height + 1) * 3);
+
     li {
-      text-indent: 0;
-      line-height: @li-height;
+      line-height: @large-li-height;
       border-bottom: 1px solid #fff;
       &:last-child {
         border-bottom: none;
@@ -249,7 +221,6 @@
       a {
         font-size: 34px;
         font-weight: 700;
-        text-align: center;
       }
     }
   }
