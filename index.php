@@ -8,6 +8,7 @@ $app = new \Slim\Slim(array(
   'debug' => true
 ));
 
+$myView = new myView('templates');
 
 $app->hook('slim.before', function() use ($app){
   // Fetch the request’s URL (scheme + host [ + port if non-standard ])
@@ -21,34 +22,17 @@ $app->hook('slim.before', function() use ($app){
 });
 
 // トップページ
-$app->get('/', function() use ($app){
-  $myView = $app->view()->getData('myView');
+$app->get('/', function() use ($app, $myView){
   $content = $myView->render('top-page.php', array('base_url' => $app->view()->getData('base_url')));
   $app->render('home.php', array('content' => $content));
 });
 // ぱんくらぶとは
-$app->get('/about', function() use ($app){
-  $content = file_get_contents('templates/about-page.php');
+$app->get('/about', function() use ($app, $myView){
+  $content = $myView->render('about-page.php');
   $app->render('home.php', array('content' => $content));
 });
-// ご利用方法
-$app->get('/order', function() use ($app){
-  $myView = $app->view()->getData('myView');
-  $content = $myView->render('order-page.php', array('base_url' => $app->view()->getData('base_url')));
-  $app->render('home.php', array('content' => $content, 'no_header_transition' => true));
-});
-// 会社概要
-$app->get('/company', function() use ($app){
-  $myView = $app->view()->getData('myView');
-  $content = $myView->render('company-page.php');
-  $app->render('home.php', array('title' => '会社概要', 'content' => $content, 'include_map_api' => true));
-});
-$app->get('/company-old', function() use ($app){
-  $app->render('company.old.php', array('title' => '会社概要', 'include_map_api' => true));
-});
 // 商品一覧ページ
-$app->group('/products', function() use ($app){
-  $myView = $app->view()->getData('myView');
+$app->group('/products', function() use ($app, $myView){
   $app->get('/', function() use ($app, $myView) {
     $content = $myView->render('products-page.php', array('base_url' => $app->view()->getData('base_url')));
     $app->render('home.php', array('title' => '商品一覧', 'content' => $content, 'no_header_transition' => true));
@@ -85,15 +69,25 @@ $app->group('/products', function() use ($app){
     $app->render('home.php', array('title' => 'その他', 'content' => $content));
   });
 });
+// ご利用方法
+$app->get('/order', function() use ($app, $myView){
+  $content = $myView->render('order-page.php', array('base_url' => $app->view()->getData('base_url')));
+  $app->render('home.php', array('content' => $content, 'no_header_transition' => true));
+});
+// 会社概要
+$app->get('/company', function() use ($app, $myView){
+  $content = $myView->render('company-page.php');
+  $app->render('home.php', array('title' => '会社概要', 'content' => $content, 'include_map_api' => true));
+});
+
 
 // 採用情報
-$app->get('/recruit', function() use ($app) {
-  $content = file_get_contents('templates/recruit-page.php');
+$app->get('/recruit', function() use ($app, $myView) {
+  $content = $myView->render('recruit-page.php');
   $app->render('home.php', array('content' => $content));
 });
 // お知らせ
-$app->get('/news', function() use ($app) {
-  $myView = new myView('templates');
+$app->get('/news', function() use ($app, $myView) {
   $content = $myView->render('news-page.php', array('base_url' => $app->view()->getData('base_url')));
   $app->render('home.php', array('content' => $content));
 });

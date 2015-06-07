@@ -24,13 +24,13 @@
         </div>
         <div class="col-md-3 box">
           <div class="row links">
-            <div class="col-xs-12 col-md-offset-2 col-md-10">
+            <div class="col-md-12">
               <a href="<?php echo $base_url; ?>/company">会社概要</a>
             </div>
-            <div class="col-xs-12 col-md-offset-2 col-md-10">
+            <div class="col-md-12">
               <a href="<?php echo $base_url; ?>/news">お知らせ</a>
             </div>
-            <div class="col-xs-12 col-md-offset-2 col-md-10">
+            <div class="col-md-12">
               <a href="<?php echo $base_url; ?>/recruit">採用情報</a>
             </div>
           </div>
