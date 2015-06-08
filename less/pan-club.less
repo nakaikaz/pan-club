@@ -32,7 +32,7 @@ h2 {
 }
 
 .btn-default {
-  border: 2px solid @base-color;
+  border: 1px solid @base-color;
   outline: 0;
   color: @base-color;
   background-color: transparent;
@@ -43,7 +43,7 @@ h2 {
 }
 
 .btn-wide {
-  width: 100%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
   //border: 0;
@@ -58,6 +58,14 @@ h2 {
 
   &:hover {
     color: #fff;
+  }
+}
+@media (min-width: 768px) {
+  .btn-default {
+    border: 2px solid @base-color;
+  }
+  .btn-wide {
+    width: 100%;
   }
 }
 

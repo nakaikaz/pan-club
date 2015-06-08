@@ -28,7 +28,7 @@ $app->get('/', function() use ($app, $myView){
 });
 // ぱんくらぶとは
 $app->get('/about', function() use ($app, $myView){
-  $content = $myView->render('about-page.php');
+  $content = $myView->render('about-page.php', array('base_url' => $app->view()->getData('base_url')));
   $app->render('home.php', array('content' => $content));
 });
 // 商品一覧ページ

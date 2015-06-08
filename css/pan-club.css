@@ -31,7 +31,7 @@ h2 {
   transition: all 0.3s ease-in-out;
 }
 .btn-default {
-  border: 2px solid #2d1d1e;
+  border: 1px solid #2d1d1e;
   outline: 0;
   color: #2d1d1e;
   background-color: transparent;
@@ -42,7 +42,7 @@ h2 {
   background-color: #2d1d1e;
 }
 .btn-wide {
-  width: 100%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
   padding: 20px 0;
@@ -53,6 +53,14 @@ h2 {
 }
 .btn-wide:hover {
   color: #fff;
+}
+@media (min-width: 768px) {
+  .btn-default {
+    border: 2px solid #2d1d1e;
+  }
+  .btn-wide {
+    width: 100%;
+  }
 }
 p {
   font-size: 18px;
@@ -338,12 +346,14 @@ header h1 {
     padding: 260px 0;
   }
 }
+#delivery {
+  margin-top: 104px;
+}
 #delivery h2 {
   text-align: center;
 }
 @media (min-width: 768px) {
   #delivery {
-    margin-top: 104px;
     background-attachment: scroll;
   }
   #delivery p {
@@ -353,9 +363,6 @@ header h1 {
 @media (min-width: 1024px) {
   #delivery {
     background-attachment: fixed;
-  }
-  #delivery p {
-    text-align: center;
   }
 }
 #bakery h2 {
@@ -381,6 +388,9 @@ header h1 {
   #wheat p {
     text-align: center;
   }
+}
+#campaign {
+  padding: 20px 0 40px;
 }
 #products-list .portfolio-item {
   margin: 8px 0;
@@ -1016,12 +1026,14 @@ header h1 {
     padding: 260px 0;
   }
 }
+#delivery {
+  margin-top: 104px;
+}
 #delivery h2 {
   text-align: center;
 }
 @media (min-width: 768px) {
   #delivery {
-    margin-top: 104px;
     background-attachment: scroll;
   }
   #delivery p {
@@ -1031,9 +1043,6 @@ header h1 {
 @media (min-width: 1024px) {
   #delivery {
     background-attachment: fixed;
-  }
-  #delivery p {
-    text-align: center;
   }
 }
 #bakery h2 {
@@ -1059,6 +1068,9 @@ header h1 {
   #wheat p {
     text-align: center;
   }
+}
+#campaign {
+  padding: 20px 0 40px;
 }
 
 #products-list .portfolio-item {
