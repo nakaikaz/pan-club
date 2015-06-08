@@ -85,6 +85,7 @@ header {
 }
 header h1 {
   margin: 15px 0 10px 15px;
+  z-index: 3000;
 }
 @media (min-width: 768px) {
   header {
@@ -113,11 +114,14 @@ header h1 {
   }
   header h1 {
     position: absolute;
-    left: 100px;
+    left: 0;
     font-size: 48px;
-    margin: 0;
     line-height: 100px;
-    z-index: 3000;
+  }
+}
+@media (min-width: 992px) {
+  header h1 {
+    margin: 0 0 0 100px;
   }
 }
 .nav-tabs {
@@ -154,7 +158,7 @@ header h1 {
 }
 @media (min-width: 768px) {
   .toggle {
-    margin: 20px 20px 0 0;
+    margin: 40px 20px 0 0;
   }
 }
 @media (min-width: 992px) {
@@ -210,19 +214,18 @@ header h1 {
 #nav-wrapper h2 {
   margin: 15px 0 10px 15px;
   padding: 0;
+  color: #ffffff;
 }
 @media (min-width: 768px) {
   #nav-wrapper h2 {
     font-size: 48px;
-    color: #fff;
-    padding: 0;
     font-weight: 700;
-    margin: 20px 0;
+    line-height: 100px;
   }
 }
 @media (min-width: 992px) {
   #nav-wrapper h2 {
-    margin: 25px 0 0 100px;
+    margin: 0 0 0 100px;
   }
 }
 .tab-nav {
@@ -245,7 +248,7 @@ header h1 {
   text-align: center;
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 @media (min-width: 768px) {
   .tab-nav {
@@ -282,7 +285,7 @@ header h1 {
   padding: 0;
 }
 .top-cover .intro-content {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 .top-cover .intro-content img {
@@ -298,12 +301,9 @@ header h1 {
 }
 @media (min-width: 768px) {
   .top-cover {
-    width: 100%;
     background-attachment: scroll;
   }
   .top-cover .intro-content {
-    color: #fff;
-    text-align: center;
     width: 50%;
     margin: auto;
     position: absolute;
@@ -595,13 +595,10 @@ h2.content-title {
   }
 }
 footer {
-  color: #fff;
+  color: #ffffff;
 }
 footer hr {
   border-top: 1px solid #ccc;
-}
-footer .col-xs-12 {
-  margin: 1em 0;
 }
 footer .box {
   padding: 0 15px;
@@ -637,8 +634,8 @@ footer .full-width {
   background-color: #fff;
   overflow-y: hidden;
 }
-footer .full-width .copyright {
-  color: #fff;
+footer .copyright {
+  color: #ffffff;
   margin: 1.4em auto;
   padding: 8px 0;
   width: 240px;
@@ -653,36 +650,31 @@ footer .full-width .copyright {
   }
   footer .box {
     border-left: 1px solid #fff;
-    height: 154px;
+    height: 180px;
     margin: 2em 0;
   }
-  footer .box:last-child {
-    border-right: 1px solid #fff;
+  footer .box:first-child {
+    border-left: none;
   }
   footer .box p {
     font-size: 14px;
   }
   footer .fa {
     width: 14px;
-    margin-right: 0.5em;
   }
   footer .links a {
     line-height: 2.0;
-    color: #ffffff;
-  }
-  footer .links a:visited {
-    color: #ffffff;
-  }
-  footer .links a:hover {
-    color: #ffffff;
   }
   footer .copyright {
     width: 200px;
     text-align: center;
-    color: #ffffff;
     font-size: 85%;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1em auto;
+  }
+}
+@media (min-width: 992px) {
+  footer .box {
+    height: 154px;
   }
 }
 .fancy-map:hover {
@@ -769,6 +761,7 @@ header {
 }
 header h1 {
   margin: 15px 0 10px 15px;
+  z-index: 3000;
 }
 @media (min-width: 768px) {
   header {
@@ -797,11 +790,14 @@ header h1 {
   }
   header h1 {
     position: absolute;
-    left: 100px;
+    left: 0;
     font-size: 48px;
-    margin: 0;
     line-height: 100px;
-    z-index: 3000;
+  }
+}
+@media (min-width: 992px) {
+  header h1 {
+    margin: 0 0 0 100px;
   }
 }
 .nav-tabs {
@@ -838,7 +834,7 @@ header h1 {
 }
 @media (min-width: 768px) {
   .toggle {
-    margin: 20px 20px 0 0;
+    margin: 40px 20px 0 0;
   }
 }
 @media (min-width: 992px) {
@@ -894,19 +890,18 @@ header h1 {
 #nav-wrapper h2 {
   margin: 15px 0 10px 15px;
   padding: 0;
+  color: #ffffff;
 }
 @media (min-width: 768px) {
   #nav-wrapper h2 {
     font-size: 48px;
-    color: #fff;
-    padding: 0;
     font-weight: 700;
-    margin: 20px 0;
+    line-height: 100px;
   }
 }
 @media (min-width: 992px) {
   #nav-wrapper h2 {
-    margin: 25px 0 0 100px;
+    margin: 0 0 0 100px;
   }
 }
 .tab-nav {
@@ -929,7 +924,7 @@ header h1 {
   text-align: center;
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 @media (min-width: 768px) {
   .tab-nav {
@@ -967,7 +962,7 @@ header h1 {
   padding: 0;
 }
 .top-cover .intro-content {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
 }
 .top-cover .intro-content img {
@@ -983,12 +978,9 @@ header h1 {
 }
 @media (min-width: 768px) {
   .top-cover {
-    width: 100%;
     background-attachment: scroll;
   }
   .top-cover .intro-content {
-    color: #fff;
-    text-align: center;
     width: 50%;
     margin: auto;
     position: absolute;
@@ -1387,13 +1379,10 @@ h2.content-title {
 }
 
 footer {
-  color: #fff;
+  color: #ffffff;
 }
 footer hr {
   border-top: 1px solid #ccc;
-}
-footer .col-xs-12 {
-  margin: 1em 0;
 }
 footer .box {
   padding: 0 15px;
@@ -1429,8 +1418,8 @@ footer .full-width {
   background-color: #fff;
   overflow-y: hidden;
 }
-footer .full-width .copyright {
-  color: #fff;
+footer .copyright {
+  color: #ffffff;
   margin: 1.4em auto;
   padding: 8px 0;
   width: 240px;
@@ -1445,36 +1434,31 @@ footer .full-width .copyright {
   }
   footer .box {
     border-left: 1px solid #fff;
-    height: 154px;
+    height: 180px;
     margin: 2em 0;
   }
-  footer .box:last-child {
-    border-right: 1px solid #fff;
+  footer .box:first-child {
+    border-left: none;
   }
   footer .box p {
     font-size: 14px;
   }
   footer .fa {
     width: 14px;
-    margin-right: 0.5em;
   }
   footer .links a {
     line-height: 2.0;
-    color: #ffffff;
-  }
-  footer .links a:visited {
-    color: #ffffff;
-  }
-  footer .links a:hover {
-    color: #ffffff;
   }
   footer .copyright {
     width: 200px;
     text-align: center;
-    color: #ffffff;
     font-size: 85%;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1em auto;
+  }
+}
+@media (min-width: 992px) {
+  footer .box {
+    height: 154px;
   }
 }
 
