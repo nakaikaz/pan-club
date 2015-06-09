@@ -13,7 +13,7 @@ $myView = new myView('templates');
 $app->hook('slim.before', function() use ($app){
   // Fetch the request’s URL (scheme + host [ + port if non-standard ])
   // slimが実行されバッファがアウトプットされる前なので、getUrl()でベースURLを取得できる
-  $base_url = $app->request->getUrl() . '';
+  $base_url = $app->request->getUrl() . '/newsite';
   //$rootUri = $app->request->getRootUri();
   $app->view()->appendData(array(
     'base_url' => $base_url,
@@ -44,7 +44,7 @@ $app->group('/products', function() use ($app, $myView){
     $app->render('home.php', array('title' => 'ロールパン', 'content' => $content));
   });
   $app->get('/danish', function() use ($app, $myView){
-    $obj = json_decode(file_get_contents('json/category-02.json'));
+    $obj = json_decode(file_get_contents('json/danish.json'));
     $content = $myView->render('category-page.php', array('category' => 'two', 'obj' => $obj, 'base_url' => $app->view()->getData('base_url')));
     $app->render('home.php', array('title' => 'デニッシュ', 'content' => $content));
   });

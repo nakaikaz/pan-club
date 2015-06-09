@@ -30,7 +30,7 @@
           data-title="<?php echo $item->name; ?>" data-comment="<?php echo $item->comment; ?>" data-price="<?php echo $item->price; ?>">
           <img class="img-responsive sync-image" src="<?php echo $base_url . '/' . $item->img; ?>" alt="<?php echo $item->name; ?>">
         </a>
-        <img class="img-responsive visible-xs-block visible-sm-block" src="<?php echo '/' . $item->img; ?>" alt="<?php echo $item->name; ?>">
+        <img class="img-responsive visible-xs-block visible-sm-block" src="<?php echo $base_url . '/' . $item->img; ?>" alt="<?php echo $item->name; ?>">
         <div class="product-description">
           <h4 class="name"><?php echo $item->name; ?></h4>
           <p class="comment visible-xs visible-sm"><?php echo $item->comment; ?></p>
