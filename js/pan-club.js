@@ -8,10 +8,12 @@
     $('.sync-image').each(function(){
       var src = $(this).css('background-image');
       if(src == 'none') {
-        src = 'http://newsite.local/' + $(this).attr('src');
+        //src = 'http://newsite.local/' + $(this).attr('src');
+        alert("couldn't find value of src");
       }else{
         src = src.replace(/url\(['"]?(.*?)['"]?\)/i, '$1');
       }
+      console.log(src);
 
       var $dfd = $.Deferred();
       var $img = $('<img src=""/>');
