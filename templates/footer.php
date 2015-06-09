@@ -51,8 +51,5 @@
   <script src="<?php echo $base_url; ?>/js/wow.min.js"></script>
   <script src="<?php echo $base_url; ?>/fancybox/jquery.fancybox.pack.js"></script>
   <script src="<?php echo $base_url; ?>/js/pan-club.js"></script>
-  <?php if(isset($no_header_transition)) : ?>
-    <script>$('header .header-background').addClass('header-background-fixed');</script>
-  <?php endif; ?>
   </body>
 </html>

@@ -11,5 +11,6 @@
     {"id": "two-09", "img": "img/category-two/danish-ring.jpg", "name": "デニッシュリング", "comment": "ビターなチョコ＆クルミをふわふわのデニッシュ生地で包みました", "price": 380},
     {"id": "two-10", "img": "img/category-two/walnut-danish.jpg", "name": "くるみデニッシュ", "comment": "デニッシュ生地にクルミフロランタンを絞り焼き上げました", "price": 280}
   ],
-  "description": "サクサクっとした食感が美味しい、デニッシュやペストリー！"
+  "description": "サクサクっとした食感が美味しい、デニッシュやペストリー！",
+  "categoryName": "デニッシュ"
 }

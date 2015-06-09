@@ -13,5 +13,6 @@
     {"id": "six-11", "img": "img/category-one/11.jpg", "name": "イチゴブレット", "comment": "イチゴジャムを丁寧に折り込みました", "price": 440},
     {"id": "six-12", "img": "img/category-one/12.jpg", "name": "あずきブレット", "comment": "ほのかに甘い小豆の小型食パン", "price": 470}
   ],
-  "description" : "カフェで出てくるようなおしゃれな飲み物をご自宅で！"
+  "description" : "カフェで出てくるようなおしゃれな飲み物をご自宅で！",
+  "categoryName": "その他"
 }

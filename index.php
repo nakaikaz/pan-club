@@ -35,36 +35,36 @@ $app->get('/about', function() use ($app, $myView){
 $app->group('/products', function() use ($app, $myView){
   $app->get('/', function() use ($app, $myView) {
     $content = $myView->render('products-page.php', array('base_url' => $app->view()->getData('base_url')));
-    $app->render('home.php', array('title' => '商品一覧', 'content' => $content, 'no_header_transition' => true));
+    $app->render('home.php', array('title' => '商品一覧', 'content' => $content));
   });
   // 商品の各カテゴリー
-  $app->get('/category-one', function() use ($app, $myView){
-    $obj = json_decode(file_get_contents('json/category-one.json'));
+  $app->get('/butter-rolls', function() use ($app, $myView){
+    $obj = json_decode(file_get_contents('json/butter-rolls.json'));
     $content = $myView->render('category-page.php', array('category' => 'one', 'obj' => $obj, 'base_url' => $app->view()->getData('base_url')));
-    $app->render('home.php', array('title' => 'ロールパン', 'content' => $content, 'no_header_transition' => true));
+    $app->render('home.php', array('title' => 'ロールパン', 'content' => $content));
   });
-  $app->get('/category-two', function() use ($app, $myView){
-    $obj = json_decode(file_get_contents('json/category-two.json'));
+  $app->get('/danish', function() use ($app, $myView){
+    $obj = json_decode(file_get_contents('json/category-02.json'));
     $content = $myView->render('category-page.php', array('category' => 'two', 'obj' => $obj, 'base_url' => $app->view()->getData('base_url')));
     $app->render('home.php', array('title' => 'デニッシュ', 'content' => $content));
   });
-  $app->get('/category-three', function() use ($app, $myView) {
-    $obj = json_decode(file_get_contents('json/category-three.json'));
+  $app->get('/sweet-roll', function() use ($app, $myView) {
+    $obj = json_decode(file_get_contents('json/sweet-roll.json'));
     $content = $myView->render('category-page.php', array('category' => 'three', 'obj' => $obj, 'base_url' => $app->view()->getData('base_url')));
     $app->render('home.php', array('page' => 'category-page', 'title' => '菓子パン', 'content' => $content));
   });
-  $app->get('/category-four', function() use ($app, $myView) {
-    $obj = json_decode(file_get_contents('json/category-four.json'));
+  $app->get('/cooked-bread', function() use ($app, $myView) {
+    $obj = json_decode(file_get_contents('json/cooked-bread.json'));
     $content = $myView->render('category-page.php', array('category' => 'four', 'obj' => $obj, 'base_url' => $app->view()->getData('base_url')));
     $app->render('home.php', array('page' => 'category-page', 'title' => '調理パン', 'content' => $content));
   });
-  $app->get('/category-five', function() use ($app, $myView) {
-    $obj = json_decode(file_get_contents('json/category-five.json'));
+  $app->get('/sweets', function() use ($app, $myView) {
+    $obj = json_decode(file_get_contents('json/sweets.json'));
     $content = $myView->render('category-page.php', array('category' => 'five', 'obj' => $obj, 'base_url' => $app->view()->getData('base_url')));
     $app->render('home.php', array('title' => '洋菓子・和菓子', 'content' => $content));
   });
-  $app->get('/category-six', function() use ($app, $myView) {
-    $obj = json_decode(file_get_contents('json/category-six.json'));
+  $app->get('/etc', function() use ($app, $myView) {
+    $obj = json_decode(file_get_contents('json/etc.json'));
     $content = $myView->render('category-page.php', array('category' => 'six', 'obj' => $obj, 'base_url' => $app->view()->getData('base_url')));
     $app->render('home.php', array('title' => 'その他', 'content' => $content));
   });
@@ -72,7 +72,7 @@ $app->group('/products', function() use ($app, $myView){
 // ご利用方法
 $app->get('/order', function() use ($app, $myView){
   $content = $myView->render('order-page.php', array('base_url' => $app->view()->getData('base_url')));
-  $app->render('home.php', array('content' => $content, 'no_header_transition' => true));
+  $app->render('home.php', array('content' => $content));
 });
 // 会社概要
 $app->get('/company', function() use ($app, $myView){

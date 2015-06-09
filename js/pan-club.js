@@ -8,12 +8,13 @@
     $('.sync-image').each(function(){
       var src = $(this).css('background-image');
       if(src == 'none') {
-        //src = 'http://newsite.local/' + $(this).attr('src');
-        alert("couldn't find value of src");
+        //console.log(location.host);
+        src = $(this).attr('src');
+        console.log(src);
       }else{
         src = src.replace(/url\(['"]?(.*?)['"]?\)/i, '$1');
       }
-      console.log(src);
+      //console.log(src);
 
       var $dfd = $.Deferred();
       var $img = $('<img src=""/>');
@@ -82,7 +83,7 @@ $('.tab-nav li a').click(function(){
   return false;
 });
 
-$('#products-gallery').owlCarousel({
+/*$('#products-gallery').owlCarousel({
   items: 3,
   rewindNav : true,
   jsonPath:'json/products-gallery.json',
@@ -104,6 +105,12 @@ $('#products-gallery').owlCarousel({
     $('#products-gallery').html(content);
     $('#products-gallery img').addClass('img-responsive img-centered');
   }
+});*/
+$(function(){
+  $('.product-carousel').owlCarousel({
+    singleItem: true,
+    rewindNav: true
+  });
 });
 
 var isMobile = 'ontouchstart' in document.documentElement;

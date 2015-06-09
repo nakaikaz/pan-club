@@ -1,4 +1,4 @@
-$('#products-gallery').owlCarousel({
+/*$('#products-gallery').owlCarousel({
   items: 3,
   rewindNav : true,
   jsonPath:'json/products-gallery.json',
@@ -20,4 +20,10 @@ $('#products-gallery').owlCarousel({
     $('#products-gallery').html(content);
     $('#products-gallery img').addClass('img-responsive img-centered');
   }
+});*/
+$(function(){
+  $('.product-carousel').owlCarousel({
+    singleItem: true,
+    rewindNav: true
+  });
 });

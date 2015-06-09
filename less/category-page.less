@@ -1,11 +1,6 @@
 @font-color: #111;
 
-.fancy-gallery {
-  display: none;
-  width: 500px;
-}
-
-.business-header {
+.category-header {
   height: 160px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -28,7 +23,7 @@
   }
 }
 @media (min-width: 768px) {
-  .business-header {
+  .category-header {
     height: 300px;
     margin-bottom: 3em;
     h3 {
@@ -41,34 +36,45 @@
 
 .product-thumbnails {
   padding: 100px 0 20px;
-  .header-line {
+  .category-name {
     font-size: 21px;
-    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    color: #fff;
+    background-color: #aaa;
+    border-radius: 16px;
   }
   .thumbnail {
     margin-bottom: 0;
   }
+  img {
+    border-radius: 4px;
+  }
   .product-description {
-    //height: 3em;
-    margin-bottom: 1.5em;
+    margin: 1.5em 0;
+    color: #fff;
+    background-color: #aaa;
+    padding: 10px 0;
+    border-radius: 4px;
     .pull-left, .pull-right {
       color: @font-color;
-      //text-align: center;
       line-height: 3;
     }
     .name {
-      color: @font-color;
+      color: #fff;
       font-weight: normal;
       text-align: center;
     }
     .comment {
-      color: @font-color;
+      color: #fff;
       font-size: 95%;
       text-align: center;
 
     }
     .price {
-      color: @font-color;
+      color: #fff;
       font-size: 95%;
       text-align: center;
     }
@@ -77,11 +83,19 @@
 
 @media (min-width: 768px) {
   .product-thumbnails {
-    padding: 0 0 50px;
+    padding: 150px 0 40px;
     .container {
       width: 100%;
     }
+    .category-header {
+      height: 150px;
+    }
+    .thumbnail {
+      width: 504px;
+      margin: 0 auto;
+    }
     img {
+      border-radius: 0;
       &.visible-xs-block, &.visible-sm-block {
         width: 504px;
         margin-right: auto;
@@ -89,7 +103,9 @@
       }
     }
     .product-description {
-      margin-bottom: 3em;
+      width: 504px;
+      margin: 1em auto 3em;
+      border-radius: 4px;
     }
   }
 }
@@ -102,12 +118,13 @@
     .thumbnail {
       width: auto;
     }
-  }
-}
-@media (min-width: 1200px) {
-  .product-thumbnails {
-    .container {
-      width: 100%;
+    .product-description {
+      width: auto;
     }
   }
+}
+
+// jquery.fancyboxで表示させるコンテンツ
+.fancy-gallery {
+  display: none;
 }

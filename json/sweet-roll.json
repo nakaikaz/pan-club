@@ -12,5 +12,6 @@
     {"id": "three-10", "img": "img/category-three/couronne.jpg", "name": "クーロンヌ", "comment": "コーヒー味のパンにモカクリームをサンド", "price": 390},
     {"id": "three-11", "img": "img/category-three/maple-butter.jpg", "name": "メープルバター", "comment": "メープルシロップ＆バターをサンド", "price": 390}
   ],
-  "description": "みんな大好き、菓子パン大集合！"
+  "description": "みんな大好き、菓子パン大集合！",
+  "categoryName": "菓子パン"
 }
