@@ -1,13 +1,5 @@
-.background-cover() {
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
 #products-list {
-
+  padding-bottom: 20px;
   .portfolio-item {
     margin: 8px 0;
   }
@@ -39,9 +31,12 @@
   .guide-item {
     h3 {
       position: absolute;
+      left: 24px;
+      bottom: 1em;
     }
     .guide-cover {
       //color: #fff;
+      height: 150px;
       background-color: #222;
       background: no-repeat center center scroll;
       -webkit-background-size: cover;
@@ -55,13 +50,8 @@
   }
 }
 @media (min-width: 768px) {
-  .navbar {
-    .container {
-      //padding: 0 1em;
-    }
-  }
   #products-list {
-    margin-top: 100px;
+    padding:120px 0 20px;
     .container {
       width: 100%;
       padding-left: 0;
@@ -84,10 +74,6 @@
       }
     }
     .product-group-link {
-      h3 {
-        left: 2em;
-        bottom: 1em;
-      }
       background-color: #000;
       .product-group-cover {
         transition: all 0.5s;
@@ -102,16 +88,11 @@
     .guide-item {
       padding-left: 0;
       padding-right: 0;
-      div {
-        height: 200px;
-        margin: 5px 0;
-        h3 {
-          left: 2em;
-          bottom: 1em;
-        }
+      h3 {
+        left: 2em;
+        bottom: 1em;
       }
     }
-
     .message-line {
       font-size: 24px;
       text-align: center;
@@ -127,20 +108,18 @@
   #products-list {
     .container {
       width: 100%;
-      //max-width: 1800px;
     }
     .product-group-cover {
       height: 450px;
     }
-  .product-group-link {
-    display: block;
-    h3 {
-      .fa {
-        font-size: 28px;
-        line-height: 28px;
+    .product-group-link {
+      display: block;
+      h3 {
+        .fa {
+          font-size: 28px;
+          line-height: 28px;
+        }
       }
     }
-  }
-
   }
 }

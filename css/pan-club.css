@@ -392,6 +392,9 @@ header h1 {
 #campaign {
   padding: 20px 0 40px;
 }
+#products-list {
+  padding-bottom: 20px;
+}
 #products-list .portfolio-item {
   margin: 8px 0;
 }
@@ -422,8 +425,11 @@ header h1 {
 }
 #products-list .guide-item h3 {
   position: absolute;
+  left: 24px;
+  bottom: 1em;
 }
 #products-list .guide-item .guide-cover {
+  height: 150px;
   background-color: #222;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -436,7 +442,7 @@ header h1 {
 }
 @media (min-width: 768px) {
   #products-list {
-    margin-top: 100px;
+    padding: 120px 0 20px;
   }
   #products-list .container {
     width: 100%;
@@ -462,10 +468,6 @@ header h1 {
   #products-list .product-group-link {
     background-color: #000;
   }
-  #products-list .product-group-link h3 {
-    left: 2em;
-    bottom: 1em;
-  }
   #products-list .product-group-link .product-group-cover {
     transition: all 0.5s;
   }
@@ -477,11 +479,7 @@ header h1 {
     padding-left: 0;
     padding-right: 0;
   }
-  #products-list .guide-item div {
-    height: 200px;
-    margin: 5px 0;
-  }
-  #products-list .guide-item div h3 {
+  #products-list .guide-item h3 {
     left: 2em;
     bottom: 1em;
   }
@@ -1073,6 +1071,9 @@ header h1 {
   padding: 20px 0 40px;
 }
 
+#products-list {
+  padding-bottom: 20px;
+}
 #products-list .portfolio-item {
   margin: 8px 0;
 }
@@ -1103,8 +1104,11 @@ header h1 {
 }
 #products-list .guide-item h3 {
   position: absolute;
+  left: 24px;
+  bottom: 1em;
 }
 #products-list .guide-item .guide-cover {
+  height: 150px;
   background-color: #222;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -1117,7 +1121,7 @@ header h1 {
 }
 @media (min-width: 768px) {
   #products-list {
-    margin-top: 100px;
+    padding: 120px 0 20px;
   }
   #products-list .container {
     width: 100%;
@@ -1143,10 +1147,6 @@ header h1 {
   #products-list .product-group-link {
     background-color: #000;
   }
-  #products-list .product-group-link h3 {
-    left: 2em;
-    bottom: 1em;
-  }
   #products-list .product-group-link .product-group-cover {
     transition: all 0.5s;
   }
@@ -1158,11 +1158,7 @@ header h1 {
     padding-left: 0;
     padding-right: 0;
   }
-  #products-list .guide-item div {
-    height: 200px;
-    margin: 5px 0;
-  }
-  #products-list .guide-item div h3 {
+  #products-list .guide-item h3 {
     left: 2em;
     bottom: 1em;
   }
