@@ -16,7 +16,7 @@
               <p class="entry-date">2015.06.10</p>
             </div>
             <div class="entry-text">
-              <img src="<?php echo $base_url; ?>/img/news/keizoku.jpg" class="img-responsive pull-left"/>
+              <img src="<?php echo $base_url; ?>/img/news/keizoku.jpg" class="img-responsive"/>
               <p>何か、ケイゾクの感想を見に来てくれる人が一定数いるみたいなんで、いい機会だからぼちぼち感想UPしていこうかなと…。</p>
               <p>って、4話の感想をUPしたのが2005年！？</p>
               <p>おそらく、渡部篤郎さん好き好き絶頂期だったと思うので、当時の感想はテンションが相当おかしいことになってますね…。(今も好きだけどね)</p>

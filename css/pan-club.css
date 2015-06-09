@@ -1574,11 +1574,37 @@ footer .copyright {
   }
 }
 
+#news-page .pane {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 10px;
+}
+#news-page article {
+  width: 80%;
+  margin: 0 auto;
+}
+#news-page article .entry-header {
+  margin-bottom: 1.5em;
+}
+#news-page article .entry-header h4 {
+  text-align: center;
+}
+#news-page article .entry-date {
+  color: #ff6d00;
+  text-align: center;
+  font-size: 90%;
+}
+#news-page article img {
+  margin-bottom: 1em;
+  display: block;
+  margin: 0 auto;
+}
+#news-page article p {
+  text-indent: 1em;
+  margin: 10px 0;
+}
 @media (min-width: 768px) {
   #news-page .pane {
-    background-color: #fff;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
     margin-top: 1em;
     padding: 2em 0;
   }
@@ -1592,16 +1618,5 @@ footer .copyright {
   }
   #news-page article p {
     margin-bottom: 16px;
-  }
-  #news-page article .entry-header {
-    margin-bottom: 1.5em;
-  }
-  #news-page article .entry-header h4 {
-    text-align: center;
-  }
-  #news-page article .entry-date {
-    color: #ff6d00;
-    text-align: center;
-    font-size: 90%;
   }
 }
