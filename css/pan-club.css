@@ -512,6 +512,47 @@ h2.content-title {
   text-align: center;
   font-size: 2em;
 }
+#how-to-order {
+  padding-bottom: 20px;
+}
+#how-to-order .nav-tabs {
+  width: 430px;
+  margin: 0 auto;
+}
+#how-to-order .nav-tabs li a {
+  width: 200px;
+  padding: 6px 13px;
+  background-color: #999;
+  border-radius: 24px;
+  border: none;
+  text-align: center;
+  color: #fff;
+}
+#how-to-order .nav-tabs li:first-child {
+  margin-right: 30px;
+}
+#how-to-order .nav-tabs li.active a {
+  background-color: #ff6d00;
+}
+#how-to-order .tab-pane {
+  background-color: #fff;
+  margin-top: 1em;
+  padding: 2em 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#how-to-order .fa {
+  color: #ff6d00;
+  font-size: 3em;
+}
+#how-to-order .order-step .media {
+  width: 500px;
+  height: 64px;
+  border: 2px solid #ff6d00;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
 #how-to-order .media-body a {
   color: #333;
   font-weight: bold;
@@ -520,6 +561,7 @@ h2.content-title {
   background-color: #fff;
 }
 #how-to-order .contact-list .table {
+  width: 90%;
   margin: 0 auto;
 }
 #how-to-order .contact-list .table tr:first-child th {
@@ -529,61 +571,31 @@ h2.content-title {
 #how-to-order .contact-list .table tr td {
   text-align: center;
 }
+#how-to-order .order-note {
+  background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#how-to-order .order-note .note-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+#how-to-order .order-note .note-content strong {
+  color: #ff6d00;
+}
 @media (min-width: 768px) {
-  #how-to-order .tab-pane {
-    background-color: #fff;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    margin-top: 1em;
-    padding: 2em 0;
-  }
   #how-to-order .contact-list .table {
     width: 60%;
   }
-  #how-to-order .order-note {
-    background-color: #fff;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
   #how-to-order .order-note .note-content {
-    width: 80%;
-    margin: 0 auto;
     padding: 10px 0 20px;
-    text-align: center;
   }
-  #how-to-order .order-note .note-content strong {
-    color: #ff6d00;
-  }
-  #how-to-order .nav-tabs {
-    width: 430px;
-    margin: 0 auto;
-  }
-  #how-to-order .nav-tabs li a {
-    width: 200px;
-    padding: 6px 13px;
-    background-color: #999;
-    border-radius: 24px;
-    border: none;
-    text-align: center;
-    color: #fff;
-  }
-  #how-to-order .nav-tabs li:first-child {
-    margin-right: 30px;
-  }
-  #how-to-order .nav-tabs li.active a {
-    background-color: #ff6d00;
-  }
-  #how-to-order .tab-content .order-step .media {
-    width: 500px;
-    height: 64px;
-    border: 2px solid #ff6d00;
-    margin: 0 auto;
-    padding: 10px 20px;
-    border-radius: 6px;
-  }
-  #how-to-order .tab-content .fa {
-    color: #ff6d00;
-    font-size: 3em;
+}
+@media (min-width: 992px) {
+  #how-to-order .order-note .note-content {
+    padding: 40px 0;
   }
 }
 @media (min-width: 1200px) {
@@ -1192,6 +1204,47 @@ h2.content-title {
   text-align: center;
   font-size: 2em;
 }
+#how-to-order {
+  padding-bottom: 20px;
+}
+#how-to-order .nav-tabs {
+  width: 430px;
+  margin: 0 auto;
+}
+#how-to-order .nav-tabs li a {
+  width: 200px;
+  padding: 6px 13px;
+  background-color: #999;
+  border-radius: 24px;
+  border: none;
+  text-align: center;
+  color: #fff;
+}
+#how-to-order .nav-tabs li:first-child {
+  margin-right: 30px;
+}
+#how-to-order .nav-tabs li.active a {
+  background-color: #ff6d00;
+}
+#how-to-order .tab-pane {
+  background-color: #fff;
+  margin-top: 1em;
+  padding: 2em 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#how-to-order .fa {
+  color: #ff6d00;
+  font-size: 3em;
+}
+#how-to-order .order-step .media {
+  width: 500px;
+  height: 64px;
+  border: 2px solid #ff6d00;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
 #how-to-order .media-body a {
   color: #333;
   font-weight: bold;
@@ -1200,6 +1253,7 @@ h2.content-title {
   background-color: #fff;
 }
 #how-to-order .contact-list .table {
+  width: 90%;
   margin: 0 auto;
 }
 #how-to-order .contact-list .table tr:first-child th {
@@ -1209,61 +1263,31 @@ h2.content-title {
 #how-to-order .contact-list .table tr td {
   text-align: center;
 }
+#how-to-order .order-note {
+  background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#how-to-order .order-note .note-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+#how-to-order .order-note .note-content strong {
+  color: #ff6d00;
+}
 @media (min-width: 768px) {
-  #how-to-order .tab-pane {
-    background-color: #fff;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    margin-top: 1em;
-    padding: 2em 0;
-  }
   #how-to-order .contact-list .table {
     width: 60%;
   }
-  #how-to-order .order-note {
-    background-color: #fff;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-  }
   #how-to-order .order-note .note-content {
-    width: 80%;
-    margin: 0 auto;
     padding: 10px 0 20px;
-    text-align: center;
   }
-  #how-to-order .order-note .note-content strong {
-    color: #ff6d00;
-  }
-  #how-to-order .nav-tabs {
-    width: 430px;
-    margin: 0 auto;
-  }
-  #how-to-order .nav-tabs li a {
-    width: 200px;
-    padding: 6px 13px;
-    background-color: #999;
-    border-radius: 24px;
-    border: none;
-    text-align: center;
-    color: #fff;
-  }
-  #how-to-order .nav-tabs li:first-child {
-    margin-right: 30px;
-  }
-  #how-to-order .nav-tabs li.active a {
-    background-color: #ff6d00;
-  }
-  #how-to-order .tab-content .order-step .media {
-    width: 500px;
-    height: 64px;
-    border: 2px solid #ff6d00;
-    margin: 0 auto;
-    padding: 10px 20px;
-    border-radius: 6px;
-  }
-  #how-to-order .tab-content .fa {
-    color: #ff6d00;
-    font-size: 3em;
+}
+@media (min-width: 992px) {
+  #how-to-order .order-note .note-content {
+    padding: 40px 0;
   }
 }
 @media (min-width: 1200px) {
