@@ -1534,43 +1534,77 @@ footer .copyright {
   }
 }
 
+#recruit-page .pane {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 10px;
+}
+#recruit-page article {
+  width: 85%;
+  margin: 0 auto;
+}
+#recruit-page .description {
+  margin-top: 1em;
+}
+#recruit-page .description dt {
+  text-align: left;
+}
+#recruit-page .description dd {
+  margin-bottom: 1.8em;
+}
+#recruit-page .contact-div {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  border-radius: 8px;
+}
+#recruit-page .contact-div .branch {
+  margin-bottom: 1em;
+}
+#recruit-page .contact-div .branch .name,
+#recruit-page .contact-div .branch .address,
+#recruit-page .contact-div .branch .phone {
+  text-align: center;
+  padding: 0.4em 0;
+}
+#recruit-page .contact-div .branch .name {
+  font-weight: bold;
+}
 @media (min-width: 768px) {
   #recruit-page .pane {
-    background-color: #fff;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
     margin-top: 1em;
     padding: 2em 4em;
   }
-  #recruit-page .description {
-    margin-top: 1em;
+}
+@media (min-width: 992px) {
+  #recruit-page .contact-div {
+    padding-left: 1em;
+    padding-right: 1em;
   }
-  #recruit-page .description dt {
+  #recruit-page .contact-div .branch {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+  }
+  #recruit-page .contact-div .branch .name,
+  #recruit-page .contact-div .branch .address,
+  #recruit-page .contact-div .branch .phone {
+    float: left;
     text-align: left;
   }
-  #recruit-page .description dt {
-    margin-bottom: 1.8em;
+  #recruit-page .contact-div .branch .name {
+    width: 25%;
   }
+  #recruit-page .contact-div .branch .address {
+    width: 50%;
+  }
+  #recruit-page .contact-div .branch .phone {
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
   #recruit-page .contact-div {
-    background-color: #f5f5f5;
-    padding: 20px 0;
-    border-radius: 8px;
-  }
-  #recruit-page .contact-div dl {
-    margin-bottom: 0;
-  }
-  #recruit-page .contact-div dl dt {
-    margin-bottom: 1em;
-  }
-  #recruit-page .contact-div .address,
-  #recruit-page .contact-div .phone {
-    float: left;
-  }
-  #recruit-page .contact-div .address {
-    width: 35%;
-  }
-  #recruit-page .contact-div .phone {
-    width: 15%;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
 
