@@ -48,14 +48,5 @@
         </a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 guide-item">
-        <a href="<?php echo $base_url; ?>/order">
-          <div class="guide-cover sync-image" style="background-image: url('<?php echo $base_url; ?>/img/guide.jpg');">
-            <h3 class="link-text">ご利用方法<i class="fa fa-angle-right"></i></h3>
-          </div>
-        </a>
-      </div>
-    </div>
   </div>
 </section>

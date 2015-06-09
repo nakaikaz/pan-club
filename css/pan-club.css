@@ -426,20 +426,6 @@ header h1 {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
-#products-list .guide-item h3 {
-  position: absolute;
-  left: 24px;
-  bottom: 1em;
-}
-#products-list .guide-item .guide-cover {
-  height: 150px;
-  background-color: #222;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
 #products-list .link-text {
   color: #f5f5f5;
 }
@@ -477,14 +463,6 @@ header h1 {
   #products-list .product-group-link:hover .product-group-cover {
     opacity: 0.8;
     filter: alpha(opacity=80);
-  }
-  #products-list .guide-item {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  #products-list .guide-item h3 {
-    left: 2em;
-    bottom: 1em;
   }
   #products-list .message-line {
     font-size: 24px;
@@ -1087,20 +1065,6 @@ header h1 {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
-#products-list .guide-item h3 {
-  position: absolute;
-  left: 24px;
-  bottom: 1em;
-}
-#products-list .guide-item .guide-cover {
-  height: 150px;
-  background-color: #222;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
 #products-list .link-text {
   color: #f5f5f5;
 }
@@ -1138,14 +1102,6 @@ header h1 {
   #products-list .product-group-link:hover .product-group-cover {
     opacity: 0.8;
     filter: alpha(opacity=80);
-  }
-  #products-list .guide-item {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  #products-list .guide-item h3 {
-    left: 2em;
-    bottom: 1em;
   }
   #products-list .message-line {
     font-size: 24px;
