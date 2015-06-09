@@ -16,12 +16,15 @@ h6 {
   font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Cachet W01 Book", "HG丸ｺﾞｼｯｸM-PRO", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, sans-serif;
   font-weight: 900;
 }
-h2 {
-  padding: 20px 0;
+h2.content-title {
+  color: #ff6d00;
+  text-align: center;
+  font-size: 2em;
+  margin: 15px 0;
 }
-@media (min-width: 481px) {
+@media (min-width: 768px) {
   h2 {
-    font-size: 40px;
+    padding: 20px 0;
   }
 }
 .btn {
@@ -507,11 +510,6 @@ header h1 {
     line-height: 28px;
   }
 }
-h2.content-title {
-  color: #ff6d00;
-  text-align: center;
-  font-size: 2em;
-}
 #how-to-order {
   padding-bottom: 20px;
 }
@@ -697,78 +695,53 @@ footer .copyright {
     height: 154px;
   }
 }
-.fancy-map:hover {
-  text-decoration: none;
+#company {
+  padding-bottom: 40px;
 }
-.fancy-map .label {
-  font-size: 16px;
+.company-content {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.company-description .main {
+  padding: 15px;
+}
+.company-description table {
+  width: 100%;
+}
+.company-description table tr {
+  line-height: 2.8;
+}
+.company-description table tr td:nth-child(1) {
+  width: 25%;
+  border-right: 1px solid #aaa;
+}
+.company-description table tr td:nth-child(2) {
+  padding-left: 3%;
+}
+.company-description table tr:nth-child(2) td:nth-child(2) {
+  line-height: 1.8em;
 }
 @media (min-width: 768px) {
   .company-content {
-    background-color: #fff;
     border-radius: 8px;
+    padding: 15px;
   }
-  .company-content h3 {
-    font-size: 21px;
-  }
-  .company-content .company-description,
-  .company-content .access-description {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding: 0 15px;
-  }
-  .company-description .sidebar,
   .company-description .main {
-    height: 380px;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
   }
-  .company-description .sidebar {
-    border-right: 1px solid #ccc;
+  .company-description table tr {
+    line-height: 3.5;
   }
-  .company-description dl {
-    margin-bottom: 0;
-  }
-  .company-description dl dt {
-    text-align: left;
-    text-indent: 1em;
-  }
-  .company-description dl dd {
-    text-align: left;
-    text-indent: 2em;
-  }
-  .company-description dl dt,
-  .company-description dl dd {
-    padding: 10px 0;
-    height: 4em;
-    line-height: 42px;
-  }
-  .access-description .sidebar,
-  .access-description .main {
-    height: 170px;
-  }
-  .access-description .sidebar {
-    border-right: 1px solid #ccc;
-  }
-  .access-description .main {
-    padding-top: 20px;
-  }
-  .access-description dl dt {
-    text-align: left;
-    text-indent: 1em;
-  }
-  .access-description dl dt,
-  .access-description dl dd {
-    height: 2em;
-    line-height: 32px;
+  .company-description table tr td:nth-child(2) {
+    padding-left: 5%;
   }
 }
-@media (min-width: 1192px) {
-  #hachinohe-branch,
-  #morioka-branch,
-  #akita-branch {
-    position: relative;
-    display: none;
-    width: 960px;
-    height: 600px;
+@media (min-width: 992px) {
+  #company {
+    padding-bottom: 150px;
   }
 }
 
@@ -1199,11 +1172,6 @@ header h1 {
   }
 }
 
-h2.content-title {
-  color: #ff6d00;
-  text-align: center;
-  font-size: 2em;
-}
 #how-to-order {
   padding-bottom: 20px;
 }
@@ -1516,78 +1484,53 @@ footer .copyright {
   }
 }
 
-.fancy-map:hover {
-  text-decoration: none;
+#company {
+  padding-bottom: 40px;
 }
-.fancy-map .label {
-  font-size: 16px;
+.company-content {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.company-description .main {
+  padding: 15px;
+}
+.company-description table {
+  width: 100%;
+}
+.company-description table tr {
+  line-height: 2.8;
+}
+.company-description table tr td:nth-child(1) {
+  width: 25%;
+  border-right: 1px solid #aaa;
+}
+.company-description table tr td:nth-child(2) {
+  padding-left: 3%;
+}
+.company-description table tr:nth-child(2) td:nth-child(2) {
+  line-height: 1.8em;
 }
 @media (min-width: 768px) {
   .company-content {
-    background-color: #fff;
     border-radius: 8px;
+    padding: 15px;
   }
-  .company-content h3 {
-    font-size: 21px;
-  }
-  .company-content .company-description,
-  .company-content .access-description {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding: 0 15px;
-  }
-  .company-description .sidebar,
   .company-description .main {
-    height: 380px;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
   }
-  .company-description .sidebar {
-    border-right: 1px solid #ccc;
+  .company-description table tr {
+    line-height: 3.5;
   }
-  .company-description dl {
-    margin-bottom: 0;
-  }
-  .company-description dl dt {
-    text-align: left;
-    text-indent: 1em;
-  }
-  .company-description dl dd {
-    text-align: left;
-    text-indent: 2em;
-  }
-  .company-description dl dt,
-  .company-description dl dd {
-    padding: 10px 0;
-    height: 4em;
-    line-height: 42px;
-  }
-  .access-description .sidebar,
-  .access-description .main {
-    height: 170px;
-  }
-  .access-description .sidebar {
-    border-right: 1px solid #ccc;
-  }
-  .access-description .main {
-    padding-top: 20px;
-  }
-  .access-description dl dt {
-    text-align: left;
-    text-indent: 1em;
-  }
-  .access-description dl dt,
-  .access-description dl dd {
-    height: 2em;
-    line-height: 32px;
+  .company-description table tr td:nth-child(2) {
+    padding-left: 5%;
   }
 }
-@media (min-width: 1192px) {
-  #hachinohe-branch,
-  #morioka-branch,
-  #akita-branch {
-    position: relative;
-    display: none;
-    width: 960px;
-    height: 600px;
+@media (min-width: 992px) {
+  #company {
+    padding-bottom: 150px;
   }
 }
 

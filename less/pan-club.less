@@ -16,13 +16,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 h2 {
-  padding: 20px 0;
-}
-@media (min-width: 481px) {
-  h2 {
-    font-size: 40px;
+  &.content-title {
+    color: #ff6d00;
+    text-align: center;
+    font-size: 2em;
+    margin: 15px 0;
   }
 }
+@media (min-width: 768px) {
+  h2 {
+    padding: 20px 0;
+  }
+}
+
 
 .btn {
   border-radius: 0;

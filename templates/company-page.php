@@ -1,71 +1,47 @@
-<!-- http://getbootstrap.com/examples/dashboard/ -->
-<section id="company" class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <h2 class="content-title">会社概要</h2>
+<section id="company">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="content-title">会社概要</h2>
+      </div>
     </div>
-  </div>
-  <div class="row company-content">
-    <div class="col-md-12">
-      <!-- .company-description -->
-      <div class="row company-description">
-        <div class="col-sm-3 col-md-3 sidebar">
-          <h3>会社概要</h3>
-        </div>
-        <div class="col-sm-9 col-md-9 main">
-          <div class="row">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="company-content">
+          <div class="row company-description">
             <div class="col-md-12">
-              <dl class="dl-horizontal">
-                <dt>名称</dt>
-                <dd>有限会社オベリスク</dd>
-                <dt>所在地</dt>
-                <dd>〒０３１−０８０１ 青森県八戸市江陽５丁目１５−１２（本社）</dd>
-                <dt>代表取締役</dt>
-                <dd>類家　隆</dd>
-                <dt>設立</dt>
-                <dd>1996年5月</dd>
-                <dt>資本金</dt>
-                <dd>３００万円</dd>
-                <dt>事業内容</dt>
-                <dd>パン、菓子類の卸販売</dd>
-              </dl>
+              <div class="main">
+                <table>
+                  <tr>
+                    <td>名称</td><td>有限会社オベリスク</td>
+                  </tr>
+                  <tr>
+                    <td>所在地</td>
+                    <td>
+                      <span class="visible-xs">〒０３１−０８０１<br />青森県八戸市江陽５丁目１５−１２</span>
+                      <span class="visible-sm visible-md visible-lg">〒０３１−０８０１ 青森県八戸市江陽５丁目１５−１２</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>代表取締役</td>
+                    <td>類家　隆</td>
+                  </tr>
+                  <tr>
+                    <td>設立</td>
+                    <td>1996年5月</td>
+                  </tr>
+                  <tr>
+                    <td>資本金</td>
+                    <td>３００万円</td>
+                  </tr>
+                  <tr>
+                    <td>事業内容</td>
+                    <td>パン、菓子類の卸販売</td>
+                  </tr>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- .access-description -->
-      <div class="row access-description">
-        <div class="col-sm-3 col-md-3 sidebar">
-          <h3>アクセス</h3>
-        </div>
-        <div class="col-sm-9 col-md-9 main">
-            <div class="row">
-              <div class="col-md-10">
-                <dl class="dl-horizontal">
-                  <dt>八戸営業所</dt>
-                  <dd>〒０３１−０８０１ 青森県八戸市江陽５丁目１５−１２</dd>
-                </dl>
-              </div>
-              <div class="col-md-2"><a href="#hachinohe-branch" class="fancy-map"><span class="label label-info">地図</span></a></div>
-            </div>
-            <div class="row">
-              <div class="col-md-10">
-                <dl class="dl-horizontal">
-                  <dt>盛岡営業所</dt>
-                  <dd>〒０２０−０１２７ 岩手県盛岡市前九年２丁目１３−２３</dd>
-                </dl>
-              </div>
-              <div class="col-md-2"><a href="#morioka-branch" class="fancy-map"><span class="label label-info">地図</span></a></div>
-            </div>
-            <div class="row">
-              <div class="col-md-10">
-                <dl class="dl-horizontal">
-                  <dt>秋田営業所</dt>
-                  <dd>〒０１１−０９３６ 秋田県秋田市将軍野南３丁目９−１０</dd>
-                </dl>
-              </div>
-              <div class="col-md-2"><a href="#akita-branch" class="fancy-map"><span class="label label-info">地図</span></a></div>
-            </div>
         </div>
       </div>
     </div>

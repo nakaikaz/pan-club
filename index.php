@@ -13,7 +13,7 @@ $myView = new myView('templates');
 $app->hook('slim.before', function() use ($app){
   // Fetch the request’s URL (scheme + host [ + port if non-standard ])
   // slimが実行されバッファがアウトプットされる前なので、getUrl()でベースURLを取得できる
-  $base_url = $app->request->getUrl() . '/newsite';
+  $base_url = $app->request->getUrl() . '';
   //$rootUri = $app->request->getRootUri();
   $app->view()->appendData(array(
     'base_url' => $base_url,
