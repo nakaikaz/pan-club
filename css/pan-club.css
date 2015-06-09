@@ -546,7 +546,7 @@ h2.content-title {
   font-size: 3em;
 }
 #how-to-order .order-step .media {
-  width: 500px;
+  width: 90%;
   height: 64px;
   border: 2px solid #ff6d00;
   margin: 0 auto;
@@ -1238,7 +1238,7 @@ h2.content-title {
   font-size: 3em;
 }
 #how-to-order .order-step .media {
-  width: 500px;
+  width: 90%;
   height: 64px;
   border: 2px solid #ff6d00;
   margin: 0 auto;
