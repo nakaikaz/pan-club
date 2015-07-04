@@ -286,7 +286,7 @@ header h1 {
 }
 .top-cover {
   position: relative;
-  display: table;
+  display: block;
   height: 100%;
   width: 100%;
   background-color: #fff;
@@ -327,6 +327,16 @@ header h1 {
   .top-cover .intro-content img {
     max-width: 340px;
     max-height: 340px;
+  }
+}
+@media (min-width: 992px) {
+  .top-cover .intro-content {
+    width: 100%;
+    height: 100%;
+  }
+  .top-cover .intro-content img {
+    width: 340px;
+    height: 340px;
   }
 }
 .values {
@@ -923,7 +933,7 @@ header h1 {
 
 .top-cover {
   position: relative;
-  display: table;
+  display: block;
   height: 100%;
   width: 100%;
   background-color: #fff;
@@ -964,6 +974,16 @@ header h1 {
   .top-cover .intro-content img {
     max-width: 340px;
     max-height: 340px;
+  }
+}
+@media (min-width: 992px) {
+  .top-cover .intro-content {
+    width: 100%;
+    height: 100%;
+  }
+  .top-cover .intro-content img {
+    width: 340px;
+    height: 340px;
   }
 }
 
