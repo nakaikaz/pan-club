@@ -29,8 +29,8 @@
   <div class="container wow fadeIn animated">
     <div class="row">
       <div class="col-lg-12">
-        <h2>工&emsp;房</h2>
-        <p>ぱんくらぶのパン工房では、安全かつおいしい無添加パンにこだわり続けており、独自のビール酵母を使用しています。</p>
+        <h2>工&emsp;場</h2>
+        <p>ぱんくらぶのパン工場では、安全かつおいしいパンづくりをこだわり続けています。</p>
       </div>
     </div>
   </div>
