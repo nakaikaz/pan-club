@@ -31,7 +31,7 @@ module.exports = function(grunt){
           optimization: 2
         },
         src: ["./less/pan-club.less", "./less/header.less","./less/top-page.less", './less/about-page.less',
-            "./less/products-page.less", './less/order-page.less', "./less/category-page.less", './less/footer.less',
+            "./less/products-page.less", './less/order-page.less', './less/footer.less',
             './less/company-page.less', './less/recruit-page.less', './less/news-page.less'],
         dest: "./css/pan-club.css"
       }

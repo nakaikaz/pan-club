@@ -1,0 +1,17 @@
+{
+  "items": [
+    {"id": "bread-01", "img": "img/products/bread-01.jpg", "name": "塩ぱん", "comment": "コメント", "price": 0},
+    {"id": "bread-02", "img": "img/products/bread-02.jpg", "name": "スコーン", "comment": "コメント", "price": 0},
+    {"id": "bread-03", "img": "img/products/bread-03.jpg", "name": "サンドウィッチ", "comment": "コメント", "price": 0},
+    {"id": "bread-04", "img": "img/products/bread-04.jpg", "name": "ぱん", "comment": "コメント", "price": 0},
+    {"id": "bread-05", "img": "img/products/bread-05.jpg", "name": "米粉ぱん", "comment": "コメント", "price": 0},
+    {"id": "bread-06", "img": "img/products/bread-06.jpg", "name": "ロイヤルミルキー", "comment": "コメント", "price": 0},
+    {"id": "bread-07", "img": "img/products/bread-07.jpg", "name": "モッチーズ", "comment": "コメント", "price": 0},
+    {"id": "bread-08", "img": "img/products/bread-08.jpg", "name": "ベーコンエピ", "comment": "ベーコンエピ", "price": 0},
+    {"id": "bread-09", "img": "img/products/bread-09.jpg", "name": "ミックスサンド", "comment": "ミックスサンド", "price": 0},
+    {"id": "bread-10", "img": "img/products/bread-10.jpg", "name": "カツサンド", "comment": "カツサンド", "price": 0},
+    {"id": "bread-11", "img": "img/products/bread-11.jpg", "name": "たまごサンド", "comment": "たまごサンド", "price": 0},
+    {"id": "bread-12", "img": "img/products/bread-12.jpg", "name": "スコーン", "comment": "スコーン", "price": 0},
+    {"id": "bread-13", "img": "img/products/bread-13.jpg", "name": "さつまいも", "comment": "さつまいも", "price": 0}
+  ]
+}

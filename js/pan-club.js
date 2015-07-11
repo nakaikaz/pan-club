@@ -122,7 +122,7 @@ $(function(){
 
 $(function() {
   $('.fancy-image').fancybox({
-    maxWidth: 500,
+    maxWidth: 610,
     openEffect: 'fade',
     closeEffect: 'fade',
     beforeShow: function(){
