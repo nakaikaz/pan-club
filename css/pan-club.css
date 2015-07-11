@@ -402,9 +402,9 @@ header h1 {
     text-align: center;
   }
 }
-#campaign {
+/*#campaign {
   padding: 20px 0 40px;
-}
+}*/
 #products-list {
   padding-bottom: 20px;
 }
@@ -679,6 +679,9 @@ footer .copyright {
   }
 }
 @media (min-width: 992px) {
+  footer {
+    margin-top: 64px;
+  }
   footer .box {
     height: 154px;
   }
@@ -1050,9 +1053,9 @@ header h1 {
     text-align: center;
   }
 }
-#campaign {
+/*#campaign {
   padding: 20px 0 40px;
-}
+}*/
 
 #products-list {
   padding-bottom: 20px;
@@ -1455,6 +1458,9 @@ footer .copyright {
   }
 }
 @media (min-width: 992px) {
+  footer {
+    margin-top: 64px;
+  }
   footer .box {
     height: 154px;
   }

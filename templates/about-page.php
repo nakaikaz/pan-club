@@ -56,7 +56,7 @@
     <div class="row">
       <div class="col-lg-12">
         <h2>小麦畑</h2>
-        <p>毎日の食卓にあがる小麦粉製品だからこそ、ポストハーベスト農薬の心配の無い自家栽培小麦粉を使用したいと考えました。</p>
+        <p>お客様にお届けするために、無農薬の小栽培を研究しています。</p>
       </div>
     </div>
   </div>
@@ -64,7 +64,7 @@
 
 
 <!-- #campaign -->
-<section id="campaign">
+<!--<section id="campaign">
   <div class="container wow fadeIn animated">
     <div class="row content-row">
       <div class="col-lg-12">
@@ -77,4 +77,4 @@
       <a class="btn btn-default btn-wide" href="#">詳  細</a>
     </div>
   </div>
-</section>
+</section>-->
