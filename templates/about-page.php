@@ -1,3 +1,12 @@
+<section id="about-title">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="content-title">ぱんくらぶとは</h2>
+      </div>
+    </div>
+  </div>
+</section>
 <section id="delivery" class="values sync-image" style="background-image: url('<?php echo $base_url; ?>/img/bg-delivery.jpg');">
   <div class="container  wow fadeIn animated">
     <div class="row">

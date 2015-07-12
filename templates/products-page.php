@@ -1,6 +1,11 @@
 <section class="product-thumbnails">
   <div class="container">
     <div class="row">
+      <div class="col-md-12">
+        <h2 class="content-title">商品一覧</h2>
+      </div>
+    </div>
+    <div class="row">
       <div class="visible-xs-block visible-sm-block product-carousel">
         <?php foreach($obj->items as $item) : ?>
         <div class="col-xs-12">
