@@ -716,11 +716,6 @@ footer .copyright {
     padding-left: 5%;
   }
 }
-@media (min-width: 992px) {
-  #company {
-    padding-bottom: 150px;
-  }
-}
 
 header {
   position: absolute;
@@ -1357,11 +1352,6 @@ footer .copyright {
     padding-left: 5%;
   }
 }
-@media (min-width: 992px) {
-  #company {
-    padding-bottom: 150px;
-  }
-}
 
 #recruit-page .pane {
   background-color: #fff;
@@ -1481,5 +1471,10 @@ footer .copyright {
   }
   #news-page article p {
     margin-bottom: 16px;
+  }
+}
+@media (min-width: 992px) {
+  #news-page .pane {
+    min-height: 340px;
   }
 }
