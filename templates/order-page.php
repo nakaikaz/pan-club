@@ -64,21 +64,24 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <div class="contact-list">
-          <table class="table">
-            <tr>
-              <th>営業所</th><th>ＴＥＬ</th><th>ＦＡＸ</th>
-            </tr>
-            <tr>
-              <td>八戸営業所</td><td>0178-73-2121</td><td>0178-73-2122</td>
-            </tr>
-            <tr>
-              <td>盛岡営業所</td><td>019-647-4649</td><td>019-647-4645</td>
-            </tr>
-            <tr>
-              <td>秋田営業所</td><td>018-816-0067</td><td>018-816-0068</td>
-            </tr>
-          </table>
+        <div class="contact-container">
+          <div class="contact-div">
+            <div class="branch">
+              <div class="name">八戸営業所</div>
+              <div class="address">青森県八戸市江陽5丁目15-12</div>
+              <div class="phone">0178-73-2121</div>
+            </div>
+            <div class="branch">
+              <div class="name">盛岡営業所</div>
+              <div class="address">岩手県盛岡市前九年2丁目13-23</div>
+              <div class="phone">019-647-4649</div>
+            </div>
+            <div class="branch">
+              <div class="name">秋田営業所</div>
+              <div class="address">秋田県秋田市将軍野南３丁目9-10</div>
+              <div class="phone">018-816-0067</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
