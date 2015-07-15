@@ -3,7 +3,6 @@
     {"id": "bread-01", "img": "img/products/bread-01.jpg", "name": "塩ぱん", "comment": "程良い塩味が癖になります。", "price": 130, "quantity": 1},
     {"id": "bread-02", "img": "img/products/bread-02.jpg", "name": "スコーン（ｸﾙﾐ＆ﾁｮｺ）", "comment": "ぱんくらぶ特性手作りスコーン。しっとりホロリ。", "price": 450, "quantity": 3},
     {"id": "bread-03", "img": "img/products/bread-03.jpg", "name": "ジューシーサンド", "comment": "上質なロースハムを使用したシンプルなんサンドイッチ。", "price": 310, "quantity": 1},
-    {"id": "bread-04", "img": "img/products/bread-04.jpg", "name": "ぱん", "comment": "コメント", "price": 0, "quantity": 0},
     {"id": "bread-05", "img": "img/products/bread-05.jpg", "name": "米粉ブレッド", "comment": "しっとりとした柔らかな食パン。", "price": 420, "quantity": 1},
     {"id": "bread-06", "img": "img/products/bread-06.jpg", "name": "ちび食ぱん", "comment": "コメント", "price": 390, "quantity": 1},
     {"id": "bread-08", "img": "img/products/bread-08.jpg", "name": "ベーコンエピ", "comment": "フランスパン生地にベーコン＆黒コショウ.", "price": 230, "quantity": 1},

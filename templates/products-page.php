@@ -16,7 +16,7 @@
           <div class="product-description">
             <h4 class="name"><?php echo $item->name; ?></h4>
             <p class="comment visible-xs visible-sm"><?php echo $item->comment; ?></p>
-            <p class="price"><?php echo $item->price; ?>円/<?php if($item->quantity > 1) echo $item->quantity; ?>個</p>
+            <p class="price"><?php echo $item->price; ?>円/<?php echo $item->quantity; ?>個</p>
           </div>
         </div>
         <?php endforeach; ?>
@@ -31,7 +31,7 @@
         <div class="product-description">
           <h4 class="name"><?php echo $item->name; ?></h4>
           <p class="comment visible-xs visible-sm"><?php echo $item->comment; ?></p>
-          <p class="price"><?php echo $item->price; ?>円/<?php if($item->quantity > 1) echo $item->quantity; ?>個</p>
+          <p class="price"><?php echo $item->price; ?>円/<?php echo $item->quantity; ?>個</p>
         </div>
       </div>
       <?php endforeach; ?>
