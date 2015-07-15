@@ -12,6 +12,7 @@
     {"id": "bread-11", "img": "img/products/bread-11.jpg", "name": "たまごワッサン", "comment": "しっとりしたタマゴサラダをたっぷりとサンド。", "price": 340, "quantity": 1},
     {"id": "bread-12", "img": "img/products/bread-12.jpg", "name": "ｽｺｰﾝ（ﾚｰｽﾞﾝ＆ｸﾗﾝﾍﾞﾘｰ）", "comment": "ぱんくらぶ特性手作りスコーン。しっとりホロリ。", "price": 440, "quantity": 3},
     {"id": "bread-13", "img": "img/products/bread-13.jpg", "name": "紫いも蒸しケーキ", "comment": "紫イモ風味の生地にさつまいもをトッピング。", "price": 470, "quantity": 2},
+    {"id": "bread-14", "img": "img/products/bread-14.jpg", "name": "高級ベルギーチョコロール", "comment": "", "price": 450, "quantity": 2},
     {"id": "bread-15", "img": "img/products/bread-15.jpg", "name": "カスタードデニッシュ", "comment": "バニラシード入りカスタードを包みました。", "price": 340, "quantity": 2}
   ]
 }
