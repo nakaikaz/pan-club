@@ -1,11 +1,12 @@
 #how-to-order {
   padding-bottom: 20px;
   .nav-tabs {
-    width: 430px;
+    width: 100%;
     margin: 0 auto;
     li {
+      width: 48%;
       a {
-        width: 200px;
+        width: 100%;
         padding: 6px 13px;
         background-color: #999;
         border-radius: 24px;
@@ -14,7 +15,7 @@
         color: #fff;
       }
       &:first-child {
-        margin-right: 30px;
+        margin-right: 4%;
       }
       &.active {
         a {
@@ -57,43 +58,26 @@
 
   .contact-container {
     background-color: #fff;
-    padding-left: 64px;
-    padding-right: 64px;
-    .contact-div {
+    .contact-inner {
+      width: 90%;
       background-color: rgb(245, 245, 245);
-      padding: 20px 0;
+      //padding: 20px 0;
+      margin: 0 auto;
       border-radius: 8px;
-      .branch {
-        margin-bottom: 1em;
-        .name, .address, .phone {
-          text-align: center;
-          padding: 0.4em 0;
-        }
-        .name {
-          font-weight: bold;
-        }
+      .name, .address, .phone {
+        text-align: center;
+        padding: 0.4em 0;
+      }
+      .name {
+        font-weight: bold;
+        padding-top: 15px;
+      }
+      .phone {
+        padding-bottom: 10px;
       }
     }
   }
 
-  /*.contact-list {
-    background-color: #fff;
-    .table {
-      width: 90%;
-      margin: 0 auto;
-      tr {
-        &:first-child {
-          th {
-            border-top: none;
-            text-align: center;
-          }
-        }
-        td {
-          text-align: center;
-        }
-      }
-    }
-  }*/
   .order-note {
     background-color: #fff;
     border-bottom-left-radius: 8px;
@@ -105,6 +89,20 @@
       text-align: center;
       strong {
         color: #ff6d00;
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  #how-to-order {
+    .nav-tabs {
+      width: 92%;
+      li {
+        width: 44%;
+        &:first-child {
+          margin-right: 12%;
+        }
       }
     }
   }
@@ -123,6 +121,14 @@
         padding: 10px 0 20px;
       }
     }
+
+    .contact-container {
+      padding-bottom: 1em;
+      .contact-inner {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
   }
 }
 @media (min-width: 992px) {
@@ -130,28 +136,6 @@
     .order-note {
       .note-content {
         padding: 40px 0;
-      }
-    }
-    .contact-div {
-      padding-left: 1em;
-      padding-right: 1em;
-      .branch {
-        width: 100%;
-        display: inline-block;
-        clear: both;
-        .name, .address, .phone {
-          float: left;
-          text-align: left;
-        }
-        .name {
-          width: 25%;
-        }
-        .address {
-          width: 50%;
-        }
-        .phone {
-          width: 25%;
-        }
       }
     }
   }

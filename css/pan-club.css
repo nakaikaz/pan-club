@@ -486,31 +486,16 @@ header h1 {
 }
 #how-to-order {
   padding-bottom: 20px;
-  /*.contact-list {
-    background-color: #fff;
-    .table {
-      width: 90%;
-      margin: 0 auto;
-      tr {
-        &:first-child {
-          th {
-            border-top: none;
-            text-align: center;
-          }
-        }
-        td {
-          text-align: center;
-        }
-      }
-    }
-  }*/
 }
 #how-to-order .nav-tabs {
-  width: 430px;
+  width: 100%;
   margin: 0 auto;
 }
+#how-to-order .nav-tabs li {
+  width: 48%;
+}
 #how-to-order .nav-tabs li a {
-  width: 200px;
+  width: 100%;
   padding: 6px 13px;
   background-color: #999;
   border-radius: 24px;
@@ -519,7 +504,7 @@ header h1 {
   color: #fff;
 }
 #how-to-order .nav-tabs li:first-child {
-  margin-right: 30px;
+  margin-right: 4%;
 }
 #how-to-order .nav-tabs li.active a {
   background-color: #ff6d00;
@@ -549,25 +534,25 @@ header h1 {
 }
 #how-to-order .contact-container {
   background-color: #fff;
-  padding-left: 64px;
-  padding-right: 64px;
 }
-#how-to-order .contact-container .contact-div {
+#how-to-order .contact-container .contact-inner {
+  width: 90%;
   background-color: #f5f5f5;
-  padding: 20px 0;
+  margin: 0 auto;
   border-radius: 8px;
 }
-#how-to-order .contact-container .contact-div .branch {
-  margin-bottom: 1em;
-}
-#how-to-order .contact-container .contact-div .branch .name,
-#how-to-order .contact-container .contact-div .branch .address,
-#how-to-order .contact-container .contact-div .branch .phone {
+#how-to-order .contact-container .contact-inner .name,
+#how-to-order .contact-container .contact-inner .address,
+#how-to-order .contact-container .contact-inner .phone {
   text-align: center;
   padding: 0.4em 0;
 }
-#how-to-order .contact-container .contact-div .branch .name {
+#how-to-order .contact-container .contact-inner .name {
   font-weight: bold;
+  padding-top: 15px;
+}
+#how-to-order .contact-container .contact-inner .phone {
+  padding-bottom: 10px;
 }
 #how-to-order .order-note {
   background-color: #fff;
@@ -583,6 +568,17 @@ header h1 {
 #how-to-order .order-note .note-content strong {
   color: #ff6d00;
 }
+@media (min-width: 480px) {
+  #how-to-order .nav-tabs {
+    width: 92%;
+  }
+  #how-to-order .nav-tabs li {
+    width: 44%;
+  }
+  #how-to-order .nav-tabs li:first-child {
+    margin-right: 12%;
+  }
+}
 @media (min-width: 768px) {
   #how-to-order .contact-list .table {
     width: 60%;
@@ -590,34 +586,17 @@ header h1 {
   #how-to-order .order-note .note-content {
     padding: 10px 0 20px;
   }
+  #how-to-order .contact-container {
+    padding-bottom: 1em;
+  }
+  #how-to-order .contact-container .contact-inner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 @media (min-width: 992px) {
   #how-to-order .order-note .note-content {
     padding: 40px 0;
-  }
-  #how-to-order .contact-div {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  #how-to-order .contact-div .branch {
-    width: 100%;
-    display: inline-block;
-    clear: both;
-  }
-  #how-to-order .contact-div .branch .name,
-  #how-to-order .contact-div .branch .address,
-  #how-to-order .contact-div .branch .phone {
-    float: left;
-    text-align: left;
-  }
-  #how-to-order .contact-div .branch .name {
-    width: 25%;
-  }
-  #how-to-order .contact-div .branch .address {
-    width: 50%;
-  }
-  #how-to-order .contact-div .branch .phone {
-    width: 25%;
   }
 }
 @media (min-width: 1200px) {
@@ -1170,31 +1149,16 @@ header h1 {
 
 #how-to-order {
   padding-bottom: 20px;
-  /*.contact-list {
-    background-color: #fff;
-    .table {
-      width: 90%;
-      margin: 0 auto;
-      tr {
-        &:first-child {
-          th {
-            border-top: none;
-            text-align: center;
-          }
-        }
-        td {
-          text-align: center;
-        }
-      }
-    }
-  }*/
 }
 #how-to-order .nav-tabs {
-  width: 430px;
+  width: 100%;
   margin: 0 auto;
 }
+#how-to-order .nav-tabs li {
+  width: 48%;
+}
 #how-to-order .nav-tabs li a {
-  width: 200px;
+  width: 100%;
   padding: 6px 13px;
   background-color: #999;
   border-radius: 24px;
@@ -1203,7 +1167,7 @@ header h1 {
   color: #fff;
 }
 #how-to-order .nav-tabs li:first-child {
-  margin-right: 30px;
+  margin-right: 4%;
 }
 #how-to-order .nav-tabs li.active a {
   background-color: #ff6d00;
@@ -1233,25 +1197,25 @@ header h1 {
 }
 #how-to-order .contact-container {
   background-color: #fff;
-  padding-left: 64px;
-  padding-right: 64px;
 }
-#how-to-order .contact-container .contact-div {
+#how-to-order .contact-container .contact-inner {
+  width: 90%;
   background-color: #f5f5f5;
-  padding: 20px 0;
+  margin: 0 auto;
   border-radius: 8px;
 }
-#how-to-order .contact-container .contact-div .branch {
-  margin-bottom: 1em;
-}
-#how-to-order .contact-container .contact-div .branch .name,
-#how-to-order .contact-container .contact-div .branch .address,
-#how-to-order .contact-container .contact-div .branch .phone {
+#how-to-order .contact-container .contact-inner .name,
+#how-to-order .contact-container .contact-inner .address,
+#how-to-order .contact-container .contact-inner .phone {
   text-align: center;
   padding: 0.4em 0;
 }
-#how-to-order .contact-container .contact-div .branch .name {
+#how-to-order .contact-container .contact-inner .name {
   font-weight: bold;
+  padding-top: 15px;
+}
+#how-to-order .contact-container .contact-inner .phone {
+  padding-bottom: 10px;
 }
 #how-to-order .order-note {
   background-color: #fff;
@@ -1267,6 +1231,17 @@ header h1 {
 #how-to-order .order-note .note-content strong {
   color: #ff6d00;
 }
+@media (min-width: 480px) {
+  #how-to-order .nav-tabs {
+    width: 92%;
+  }
+  #how-to-order .nav-tabs li {
+    width: 44%;
+  }
+  #how-to-order .nav-tabs li:first-child {
+    margin-right: 12%;
+  }
+}
 @media (min-width: 768px) {
   #how-to-order .contact-list .table {
     width: 60%;
@@ -1274,34 +1249,17 @@ header h1 {
   #how-to-order .order-note .note-content {
     padding: 10px 0 20px;
   }
+  #how-to-order .contact-container {
+    padding-bottom: 1em;
+  }
+  #how-to-order .contact-container .contact-inner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }
 @media (min-width: 992px) {
   #how-to-order .order-note .note-content {
     padding: 40px 0;
-  }
-  #how-to-order .contact-div {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  #how-to-order .contact-div .branch {
-    width: 100%;
-    display: inline-block;
-    clear: both;
-  }
-  #how-to-order .contact-div .branch .name,
-  #how-to-order .contact-div .branch .address,
-  #how-to-order .contact-div .branch .phone {
-    float: left;
-    text-align: left;
-  }
-  #how-to-order .contact-div .branch .name {
-    width: 25%;
-  }
-  #how-to-order .contact-div .branch .address {
-    width: 50%;
-  }
-  #how-to-order .contact-div .branch .phone {
-    width: 25%;
   }
 }
 @media (min-width: 1200px) {
