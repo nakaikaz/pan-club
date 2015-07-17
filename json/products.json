@@ -4,7 +4,7 @@
     {"id": "bread-02", "img": "img/products/bread-02.jpg", "name": "スコーン（ｸﾙﾐ＆ﾁｮｺ）", "comment": "ぱんくらぶ特性手作りスコーン。しっとりホロリ。", "price": 450, "quantity": 3},
     {"id": "bread-03", "img": "img/products/bread-03.jpg", "name": "ジューシーサンド", "comment": "上質なロースハムを使用したシンプルなんサンドイッチ。", "price": 310, "quantity": 1},
     {"id": "bread-05", "img": "img/products/bread-05.jpg", "name": "米粉ブレッド", "comment": "しっとりとした柔らかな食パン。", "price": 420, "quantity": 1},
-    {"id": "bread-06", "img": "img/products/bread-06.jpg", "name": "ちび食ぱん", "comment": "コメント", "price": 390, "quantity": 1},
+    {"id": "bread-06", "img": "img/products/bread-06.jpg", "name": "ちび食ぱん", "comment": "耳までソフトな小型食パン", "price": 390, "quantity": 1},
     {"id": "bread-08", "img": "img/products/bread-08.jpg", "name": "ベーコンエピ", "comment": "フランスパン生地にベーコン＆黒コショウ.", "price": 230, "quantity": 1},
     {"id": "bread-09", "img": "img/products/bread-09.jpg", "name": "ミックスサンド", "comment": "バラエティに富んだミックスサンドです。", "price": 330, "quantity": 1},
     {"id": "bread-10", "img": "img/products/bread-10.jpg", "name": "カツサンド", "comment": "ボリュームのあるロースカツをサンド。", "price": 390, "quantity": 1},
