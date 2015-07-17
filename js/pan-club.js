@@ -1,4 +1,3 @@
-(function($){
   $('#loading').fakeLoader({timeToHide: 9999999, zIndex: 9999, spinner: 'spinner1', bgColor: '#fff'});
   $('.double-bounce1, .double-bounce2').css('background-color', '#c2b49a');
 
@@ -53,7 +52,6 @@
   });
   imagesLoaded.fail(function(){
   });
-})(jQuery);
 
 /*$(window).bind('load scroll resize', function(){
   if($('header').offset().top > 50){

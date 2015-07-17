@@ -3,25 +3,28 @@ module.exports = function(grunt){
   grunt.initConfig({
     // jsファイルを圧縮
     uglify: {
-      js: {
+      basic: {
         src: './js/pan-club.js',
         dest: './js/pan-club.min.js'
+      },
+      loader: {
+        src: 'js/loader.js',
+        dest: 'js/loader.min.js'
       }
     },
     // jsファイルを結合
     concat: {
-      js: {
+      basic: {
         src: [
-          './js-src/imageLoader.js', './js-src/header.js', './js-src/carousel.js', './js-src/wow-conf.js', './js-src/fancybox-handler.js'
+          'js-src/imageLoader.js', './js-src/header.js', './js-src/carousel.js', './js-src/wow-conf.js', './js-src/fancybox-handler.js'
         ],
         dest: './js/pan-club.js'
+      },
+      loader : {
+        src: ['js-src/imageLoader.js'],
+        dest: 'js/loader.js'
       }
     },
-    /*less: {
-      options: {yuicompress: true},
-      src: ['./less/theme.less', './less/products.less'],
-      dest: './css/theme.css'
-    },*/
     // lessのビルド
     less: {
       development: {
