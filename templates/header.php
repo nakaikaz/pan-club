@@ -6,9 +6,9 @@
     <meta name="description" content="">
     <title>
     <?php if(isset($title)) : ?>
-    <?php echo $title; ?> | Newsite
+    <?php echo $title; ?> | ぱんくらぶ
     <?php else : ?>
-      Newsite
+      ぱんくらぶ
     <?php endif; ?>
     </title>
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>/css/bootstrap.css" />

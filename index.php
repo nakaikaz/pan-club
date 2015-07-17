@@ -28,7 +28,7 @@ $app->get('/', function() use ($app, $myView){
 // ぱんくらぶとは
 $app->get('/about', function() use ($app, $myView){
   $content = $myView->render('about-page.php', array('base_url' => $app->view()->getData('base_url')));
-  $app->render('home.php', array('content' => $content));
+  $app->render('home.php', array('content' => $content, 'title' => 'ぱんくらぶとは'));
 });
 // 商品一覧ページ
 $app->get('/products', function() use ($app, $myView){
@@ -39,7 +39,7 @@ $app->get('/products', function() use ($app, $myView){
 // ご利用方法
 $app->get('/order', function() use ($app, $myView){
   $content = $myView->render('order-page.php', array('base_url' => $app->view()->getData('base_url')));
-  $app->render('home.php', array('content' => $content));
+  $app->render('home.php', array('content' => $content, 'title' => 'ご利用方法'));
 });
 // 会社概要
 $app->get('/company', function() use ($app, $myView){
@@ -54,7 +54,7 @@ $app->get('/recruit', function() use ($app, $myView) {
 // お知らせ
 $app->get('/news', function() use ($app, $myView) {
   $content = $myView->render('news-page.php', array('base_url' => $app->view()->getData('base_url')));
-  $app->render('home.php', array('content' => $content));
+  $app->render('home.php', array('content' => $content, 'title' => 'お知らせ'));
 });
 
 // デモ
